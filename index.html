@@ -1,55 +1,115 @@
-<!DOCTYPE html>
+
 <html>
 	<head>
-		<meta charset="utf-8">
-		<style>
-			body { 
-				background-color: #ffffff; 
-				margin: 0; 
-				overflow: hidden; 
-			} 
-		</style>
+		
+		<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
 	</head>
 	<body>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/94/three.min.js"></script>
-		<script>
-
-			var camera, scene, renderer; 
-			var geometry, material, mesh; 
-
-			function init() { 
-
-				camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 10 ); 
-				camera.position.z = 3; 
-
-				scene = new THREE.Scene(); 
-				scene.background = new THREE.Color( 0xffffff ); 
-
-				geometry = new THREE.SphereGeometry( 1 ); 
-				material = new THREE.MeshBasicMaterial( { color: 0x000000, wireframe: true } ); 
-
-				mesh = new THREE.Mesh( geometry, material ); 
-				scene.add( mesh ); 
-
-				renderer = new THREE.WebGLRenderer( { antialias: true } ); 
-				renderer.setSize( window.innerWidth, window.innerHeight ); 
-				document.body.appendChild( renderer.domElement ); 				
+		<a-scene>
+			<a-assets>
 				
-			}
+				
+			</a-assets>
 
-			function animate( time ) { 
+			<!-- light -->
+			<!--a-entity light="type: directional; color: #FFF; intensity: 1.3" position="1 3 3"></a-entity-->
 
-				mesh.rotation.x = time * 0.0005; 
-				mesh.rotation.y = time * 0.001; 
+			
 
-				renderer.render( scene, camera ); 
-				requestAnimationFrame( animate ); 
+			<!-- ground and floor -->
+			<a-box color="red" width=".1" height ="3" depth=".5" rotation=" 0 0 0" position="0 5 0"></a-box>
+			<a-box color="#299D21" width="25" height="0.04" depth="25" position = "0 -.001 0" scale="1 1 1"></a-box>
+			<a-box color="#C8C8C8" width="10" height=".050" depth="10" position = "0 0 0" scale="1 1 1"></a-box>
 
-			}
+			
+			<!--South wall-->
+			<a-box color="#9C9C9C" width="10" height="9" depth=".1" position = "0 0 5"></a-box>
+			
+			<!--Right Wall-->
+			<a-box color="#9C9C9C" width="10" height="9" depth=".1" position = "-5 0 0" rotation="0 90"></a-box>
+			<!--Left Wall-->
+			<a-box color="#9C9C9C" width="10" height="9" depth=".1" position = "5 0 0" rotation="0 90"></a-box>
 
-			init();
-			requestAnimationFrame( animate );
+			<!--North windowed wall-->
+			<a-box color="#9C9C9C" width="10" height="1" depth=".1" position = "0 4 -5"></a-box>
+			<a-box color="#9C9C9C" width="10" height="2" depth=".1" position = "0 0 -5"></a-box>
+			<!--window vertical beams-->
+			<a-box color="#9C9C9C" width=".3" height="9" depth=".1" position = "0 0 -5"></a-box>
+			<!--window horizontal beams-->
+			<a-box color="#9C9C9C" width="10" height=".3" depth=".1" position = "0 2.3 -5"></a-box>
+			<!--thinner horizontal beams-->
+			<a-box color="#9C9C9C" width=".1" height="9" depth=".1" position = "-2.4 0 -5"></a-box>
+			<a-box color="#9C9C9C" width=".1" height="9" depth=".1" position = "2.4 0 -5"></a-box>
+			
 
-		</script>
+
+
+
+			
+			<!--pool-->
+			<a-box color="#32FDFF" width="3" height=".05" depth="4" position = "-4 0.01 7" ></a-box>
+
+			<!-- chair and legs -->
+			<a-box color="#A56D15" width=".1" height="1.3" depth=".1"></a-box>
+			<a-box color="#A56D15" width=".1" height="1.3" depth=".1" position = "0 0 .4"></a-box>
+			<a-box color="#A56D15" width=".1" height="1.3" depth=".1" position = ".5 0 0"></a-box>
+			<a-box color="#A56D15" width=".1" height="1.3" depth=".1" position = ".5 0 .4"></a-box>
+			<a-box color="#A56D15" width=".6" height=".05" depth=".5" position = ".25 .67 .2"></a-box>
+			<a-box color="#A56D15" width=".6" height=".05" depth=".5" position = "-.023 .99 .2" rotation = "0 0 90"></a-box>
+
+
+			<!-- desk -->
+			<a-box color="#A56D15" width=".7" height=".02" depth="1" position = "1 .83 .2"></a-box>
+			<a-box color="#A56D15" width=".7" height=".02" depth="1" position = "1 .93 .2"></a-box>
+
+			<!-- desk legs -->
+			<a-box color="#A56D15" width=".1" height="1.85" depth=".1" position = "1.3 0 -.2"></a-box>
+			<a-box color="#A56D15" width=".1" height="1.85" depth=".1" position = "1.3 0 .6"></a-box>
+			<a-box color="#A56D15" width=".1" height="1.85" depth=".1" position = ".7 0 -.2"></a-box>
+			<a-box color="#A56D15" width=".1" height="1.85" depth=".1" position = ".7 0 .6"></a-box>
+
+			<!-- computer -->
+			<a-box color="#343434" width=".5065" height=".05" depth=".9" position = "1.2 1.29 .2" rotation = "0 0 90"></a-box>
+			<a-box color="#DBDBDB" width=".4" height=".05" depth=".8" position = "1.199900 1.295 .2" rotation = "0 0 90"></a-box>
+
+			<!--base-->
+			<a-cylinder color="#343434" radius=.0375 height=".375" position = "1.24 1.16 .2" rotation = "0 0 0"></a-cylinder>
+			<!--bottom of base-->
+			<a-cylinder color="#343434" radius=.11 height=".004" position = "1.20 .95 .2" rotation = "0 0 0"></a-cylinder>
+
+			<!-- keyboard -->
+			<a-box color="#E7E7E7" width=".27" height=".002" depth=".58" position = ".86 .95 .135" rotation = "0 0 0"></a-box>
+
+
+
+
+			<!--shelf-->
+			<a-box color="#A56D15" width=".7" height=".2" depth="3" position = "4.65 0 3.50"></a-box>
+			<a-box color="#A56D15" width=".7" height=".05" depth="3" position = "4.65 .5 3.50"></a-box>
+			<a-box color="#A56D15" width=".7" height=".05" depth="3" position = "4.65 1 3.50"></a-box>
+			<a-box color="#A56D15" width=".7" height=".05" depth="3" position = "4.65 1.5 3.50"></a-box>
+			<a-box color="#A56D15" width=".7" height=".05" depth="3" position = "4.65 2 3.50"></a-box>
+			<!--topshelf-->
+			<a-box color="#A56D15" width=".7" height=".1" depth="3" position = "4.65 2.7 3.50"></a-box>
+			
+			<!--sides of shelf-->
+			<a-box color="#A56D15" width=".7" height="2.7" depth=".1" position = "4.65 1.4 2.05"></a-box>
+			<a-box color="#A56D15" width=".7" height="2.7" depth=".1" position = "4.65 1.4 4.90"></a-box>
+
+			<!--bed-->
+			<a-box color="#A56D15" width="1.8" height=".1" depth="3.5" position = "-4.1 .9 3.2"></a-box>
+			<!--headboard-->
+			<a-box color="#A56D15" width="1.8" height="1.7" depth=".1" position = "-4.1 0.9 4.90"></a-box>
+			<!--backboard-->
+			<a-box color="#A56D15" width="1.8" height="1" depth=".1" position = "-4.1 0.55 1.5"></a-box>
+
+			<!--mattress-->
+			<a-box color="#D3D3D3" width="1.6" height=".3" depth="3.1" position = "-4.1 1.1 3.2"></a-box>
+			<!--blanket-->
+			<a-box color="#001692" width="1.61" height=".3" depth="2.5" position = "-4.1 1.101 2.8"></a-box>
+			
+
+
+		</a-scene>
 	</body>
 </html>
