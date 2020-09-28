@@ -1,53 +1,237 @@
-
+<!DOCTYPE html>
 <html>
-	<head>
-		
-		<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
-	</head>
-	<body>
-		<a-scene>
-			<a-assets>
-				
-				
-			</a-assets>
+  <head>
+    <meta charset="utf-8">
+    <title>Saif's WebVR! • A-Frame</title>
+    <meta name="description" content="Saif's WebVR! • A-Frame">
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene background="color: #D7ECF4">
+      <a-assets>
+        <img id="lightwood" src = "https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/lightwood.jpg?token=AQZQTZK5XS5HZ4PHVTPOTAS7LFYU6">
+        <img id="bed" src ="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/bedsheets.jpg">
+        <img id="league" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/league2.jpg">
+        <img id="pool" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/pool.jpg">
+        <img id="bushes" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/bushes.jpg">
+        <img id="soil" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/soil.jpg">
+        <img id="rug" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/rug.jpeg">
+        <img id="calendar" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/calendar.jpg">
+        <img id="bricks" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/bricks.jpg">
+        <img id="clock"  src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/clock2.png">     
+        <img id="hologram" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/hologram.png">     
+        <img id="web" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/webs.png">     
+        
+        
+        <a-gltf-model id="book" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/book.glb"></a-gltf-model>
+        
+        <a-gltf-model id="book2" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/book2.glb"></a-gltf-model>
+        <a-gltf-model id="books" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/books.glb"></a-gltf-model>
+        
+        <a-gltf-model id="switch" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/switch.glb"></a-gltf-model>
+        <a-gltf-model id="ps4" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/ps4.glb"></a-gltf-model>
+        <a-gltf-model id="ps5" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/ps5.glb"></a-gltf-model>
+        <a-gltf-model id="ps5controller" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/ps5controller.glb"></a-gltf-model>
+        
+        <a-gltf-model id="stormtrooper" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/stormtrooper.glb"></a-gltf-model>
+        <a-gltf-model id="tv" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/tv.glb"></a-gltf-model>
+        
+        <a-gltf-model id="cactus" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/cactus.glb.glb"></a-gltf-model>
+        
+        <a-gltf-model id="fireplace" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/fireplace.glb"></a-gltf-model>
+        <a-gltf-model id="door" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/door.glb"></a-gltf-model>
+        <a-gltf-model id="link" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/link.glb"></a-gltf-model>
+        <a-gltf-model id="bb8" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/bb8.glb"></a-gltf-model>
+        
+        <a-gltf-model id="pc" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/pc.glb"></a-gltf-model>
+        <a-gltf-model id="mouse" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/mouse.glb"></a-gltf-model>
+        <a-gltf-model id="pillow" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/pillow.glb"></a-gltf-model>
+        
+        <!--transparent images: lei-->
+        <img id="leia"  src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/leia.png">   
+        <!--webs-->
+        
+        <audio id="water" src"https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/pool.mp3"> </audio>
+        <audio id="fire" src"https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/fireplace.mp3"> </audio>
+        
+      </a-assets>
+      
+      
+      <!-- Dim ambient lighting. -->
+        <a-light type="ambient" color="#FFF" intensity=".84"></a-light>
+        
+      <!-- Red directional light shining from the top left. -->
+        <a-light type="point" color="red" position="6 3 6" intensity=".89"></a-light>
+        <!--yellow for the fire-->
+        <a-light type="point" color="yellow" position="4.7 3 4.7" intensity=".01"></a-light>
+        <!--primary red-->
+        <a-light type="point" color="red" position="4.7 -4 4.7" intensity=".09"></a-light>
+        <!--blue-->
+        <a-light type="point" color="#03c6fc" position="2.5 3 -10" intensity=".1"></a-light>
+        <!--blue for the pool-->
+      
+        <a-light type="point" color="#03c6fc" position="2.5 1 -15.5" intensity=".15"></a-light>
+        <a-light type="point" color="#03c6fc" position="-4.5 1 -15.5" intensity=".15"></a-light>
+        
+        <!--extra reds for the fire-->
+        <a-light type="point" color="red" position="3.9 2 2" intensity=".36"></a-light>
+        <a-light type="point" color="red" position="3 1 4" intensity=".35"></a-light>
+        
+        
+        <!--corrective lights-->
+        <a-light color="#FFE28C" position="1 3 0" intensity=".1"></a-light>
+        <a-light color="#E5FF00" position="1 -2 1" intensity=".075"></a-light>
+        <a-entity light="type: hemisphere; color: #FFF; intensity: 0.06" position="4 10 -4"></a-entity>
+        
+      <a-entity light="type: spot; color: blue; intensity: .5" position="3 .3 3"></a-entity>
+        <a-entity light="type: spot; color: green; intensity: .1" position="-4.5 .1 4.5"></a-entity>
+        
+      
+      <!--Sun-->
+        <a-sphere position="20 10 20" radius="5" color="#FF7000">
+        </a-sphere>
+      
+      <!--Camera Rig: What the player looks through. -->
+      <!--Also contains right and left hand for when you use motion controls positioned where the camera is-->
+      
+      <a-entity id="rig" position="-.4 1.35 -3.75" rotation="0 180 0">
+          <a-entity id="camera" camera look-controls wasd-controls acceleration="10">
+            <a-entity cursor="fuse: true; fuseTimeout: 500; interval:2000; cursorStylesEnables:false"
+            position="0 0 -1"
+            geometry="primitive: ring; radiusInner: 0.02; radiusOuter: 0.03"
+            material="color: black; shader: flat"
+            
+            >
+  </a-entity>
+          </a-entity>
+          
+      </a-entity>
+      
+      
+      
+      <!--enabled hand controllers-->
+      
+      
+      <!--stormtrooper-->
+      <a-gltf-model position="4.6 1.27 .4" scale=".85 .65 .65" rotation="-20 -90 0"src="#stormtrooper"> </a-gltf-model>
+      
+      <!--link-->
+      <a-gltf-model position="4.5 1.2 -.12" scale=".0008 .0008 .0008" rotation="0 -90 0"src="#link"></a-gltf-model>
+      
+      <!--bb8 droid-->
+      <a-gltf-model position="4.245 0 -4.15" scale=".2 .2 .2" rotation="10 140 15"src="#bb8"></a-gltf-model>
+      
+      
+      
+      
+      <!--tv-->
+      <a-gltf-model position="4.95 1.45 -3.25" scale="1 1 1" rotation="0 0 0"src="#tv"></a-gltf-model>
+      
+      <!--pc-->
+      <a-gltf-model position="1 0 .85" scale=".005 .005 .005" rotation="0 90 0"src="#pc"></a-gltf-model>
+      <!--mouse-->
+      <a-gltf-model position=".83 .95 .57" scale=".019 .017 .017" rotation="0 -90 0" src="#mouse"></a-gltf-model>
+      
+      
+      <!--door-->
+      <a-gltf-model position="-5.44 .7 -.7" scale=".01 .01 .01" rotation="0 90 0"src="#door"></a-gltf-model>
+      <a-gltf-model position="-4.65 .7 -.7" scale="-.011 .012 .01" rotation="0 -90 0"src="#door"></a-gltf-model>
+      
+      
+      
+      <!--PS5-->
+      <a-gltf-model position="4.9 .4 -2.7" scale=".002 .002 .002" rotation="0 -80 0"src="#ps5"></a-gltf-model>
+      <!--PS5 controllers-->
+      <a-gltf-model position="4.6 .04 -2.40" src="#ps5controller" scale=".0025 .0025 .0025" rotation="-2 -15 0"></a-gltf-model>
+      <a-gltf-model position="4.3 .04 -2.75" src="#ps5controller" scale=".0025 .0025 .0025" rotation="-2 210 0"></a-gltf-model>
+      
+      
+      <!--Nintendo Switch-->
+      <a-gltf-model position="4.5 1.23 1.155" scale=".02 .02 .02" rotation="90 -105 0"src="#switch"></a-gltf-model>
+      
+      <!--book2-->
+      <a-gltf-model position="4.5 .8 1.32" scale="2 2.3 2" rotation="0 90 0"src="#book2" ></a-gltf-model>
+      <a-gltf-model position="4.5 .8 .95" scale="2 2.3 2" rotation="0 90 0"src="#book2" ></a-gltf-model>
+      <a-gltf-model position="4.5 .8 .58" scale="2 2.3 2" rotation="0 90 0"src="#book2" ></a-gltf-model>
+      
+      
+      <a-gltf-model position="4.5 1.77 -1.32" scale="2 2.3 2" rotation="0 -90 0"srwc="#book2" ></a-gltf-model>
+      <a-gltf-model position="4.5 1.77 -.95" scale="2 2.3 2" rotation="0 -90 0"src="#book2" ></a-gltf-model>
+      <a-gltf-model position="4.5 1.77 -.58" scale="2 2.3 2" rotation="0 -90 0"src="#book2" ></a-gltf-model>
+      <a-gltf-model position="4.5 1.77 -.21" scale="2 2.3 2" rotation="0 -90 0"src="#book2" ></a-gltf-model>
+      <a-gltf-model position="4.5 1.77 .2" scale="2 2.3 2" rotation="0 -90 0"src="#book2" ></a-gltf-model>
+      
+      
+      
+      
+      <!--books3
+      <a-gltf-model position="4.6 .27 0" scale="1.4 .85 .85" src="#books" rotation="0 90 0"></a-gltf-model>
+      <a-gltf-model position="4.6 2.35 0" scale="1.2 .85 .85" src="#books" rotation="0 -90 0"></a-gltf-model>-->
 
-			<!-- light -->
-			<!--a-entity light="type: directional; color: #FFF; intensity: 1.3" position="1 3 3"></a-entity-->
-
+      <!--book-->
+      
+      <a-gltf-model position="4.3 1.3 -1.35" scale=".5 .6 .35"  rotation="90 0 0"src="#book"></a-gltf-model>
+      <a-gltf-model position="4.3 1.3 -1.3" scale=".5 .6 .35"  rotation="85 0 0"src="#book"></a-gltf-model>
+      <a-gltf-model position="4.7 1.3 -1.21" scale=".5 .6 .35"  rotation="-75 180 0"src="#book"></a-gltf-model>
+      <a-gltf-model position="4.3 1.3 -1.15" scale=".5 .6 .35"  rotation="70 0 0"src="#book"></a-gltf-model>
+      
+      
+      <a-gltf-model position="4.3 .8 -1.35" scale=".5 .6 .35"  rotation="90 0 0"src="#book"></a-gltf-model>
+      <a-gltf-model position="4.3 .8 -1.3" scale=".5 .6 .35"  rotation="85 0 0"src="#book"></a-gltf-model>
+      <a-gltf-model position="4.7 .8 -1.21" scale=".5 .6 .35"  rotation="-75 180 0"src="#book"></a-gltf-model>
+      <a-gltf-model position="4.3 .8 -1.1" scale=".5 .6 .35"  rotation="60 0 0"src="#book"></a-gltf-model>
+      
+      
+      <!--grass-->
+      <a-box color="#299D21" width="25" height="0.04" depth="30" position = "0 -.1 0" scale="1 1 1"></a-box>
 			
-
-			<!-- ground and floor -->
-			<a-box color="red" width=".1" height ="3" depth=".5" rotation=" 0 0 0" position="0 5 0"></a-box>
-			<a-box color="#299D21" width="25" height="0.04" depth="25" position = "0 -.001 0" scale="1 1 1"></a-box>
-			<a-box color="#C8C8C8" width="10" height=".050" depth="10" position = "0 0 0" scale="1 1 1"></a-box>
+      <!--ground -->
+      <a-box src="#lightwood" repeat ="7 10" width="10" height=".005" depth="10" position = "0 0 0" scale="1 1 1" material="shader: flat"></a-box>
 
 			
 			<!--South wall-->
-			<a-box color="#9C9C9C" width="10" height="9" depth=".1" position = "0 0 5"></a-box>
+			<a-box src="#lightwood" repeat ="5 5" width="10" height="9" depth=".1" position = "0 0 5" material="shader: flat"></a-box>
 			
 			<!--Right Wall-->
-			<a-box color="#9C9C9C" width="10" height="9" depth=".1" position = "-5 0 0" rotation="0 90"></a-box>
+			<a-box src="#lightwood" repeat ="5 5" width="10" height="9" depth=".1" position = "-5 0 0" rotation="0 90" color="#d4c6bc"></a-box>
 			<!--Left Wall-->
-			<a-box color="#9C9C9C" width="10" height="9" depth=".1" position = "5 0 0" rotation="0 90"></a-box>
+			<a-box src="#lightwood" repeat ="5 5"width="10" height="9" depth=".1" position = "5 0 0" rotation="0 90" > </a-box>
 
 			<!--North windowed wall-->
-			<a-box color="#9C9C9C" width="10" height="1" depth=".1" position = "0 4 -5"></a-box>
-			<a-box color="#9C9C9C" width="10" height="2" depth=".1" position = "0 0 -5"></a-box>
-			<!--window vertical beams-->
-			<a-box color="#9C9C9C" width=".3" height="9" depth=".1" position = "0 0 -5"></a-box>
-			<!--window horizontal beams-->
-			<a-box color="#9C9C9C" width="10" height=".3" depth=".1" position = "0 2.3 -5"></a-box>
-			<!--thinner horizontal beams-->
-			<a-box color="#9C9C9C" width=".1" height="9" depth=".1" position = "-2.4 0 -5"></a-box>
-			<a-box color="#9C9C9C" width=".1" height="9" depth=".1" position = "2.4 0 -5"></a-box>
+			<a-box src="#lightwood" repeat ="7 1"  width="10" height="1" depth=".1" position = "0 4 -5" material="shader: flat"></a-box>
+			<a-box src="#lightwood" repeat ="7 1"  width="9.9" height="1" depth=".1" position = "0 .5 -5" material="shader: flat"></a-box>
 			
-
+			
+      <!--window horizontal beams-->
+      <a-box src="#lightwood" repeat ="3.5 .1"  width="10" height=".2" depth=".09" position = "0 2.3 -5" rotation="0 0 0" color="#ECAE4E"></a-box>
+			<!--perch-->
+      <a-box src="#lightwood" repeat ="3.5 .1"  width="10" height=".3" depth=".09" position = "0 1 -4.82" rotation="90 0 0" color="#ECAE4E"></a-box>
+			
+      <a-box src="#lightwood" repeat ="3.5 .1"  width="10" height=".2" depth=".09" position = "0 3.5 -5" rotation="90 0 0" color="#ECAE4E"></a-box>
+			
+      
+      <!--window vertical beams-->
+			<a-box src="#lightwood" repeat =".2 1"  width=".3" height="2.6" depth=".095" position = "0 2.2 -5" color="#ECAE4E"></a-box>
+      <!--thinner vertical beams-->
+			<a-box src="#lightwood" repeat =".15 1"  width=".1" height="2.6" depth=".095" position = "-2.4 2.2 -5" color="#ECAE4E"></a-box>
+			<a-box src="#lightwood" repeat =".15 1"  width=".1" height="2.6" depth=".095" position = "2.4 2.2 -5" color="#ECAE4E"></a-box>
+			
+      <!--right window-->
+      <a-plane color="#000000" material="transparent: true; opacity: .1" width="5" height="2.55" rotation="0 180 0" position="-2.4 2.2 -5"></a-plane>
+      <!--left window-->
+      <a-plane color="#000000" material="transparent: true; opacity: .1" width="5" height="2.55" rotation="0 180 0" position="2.4 2.2 -5"></a-plane>
 
 
 
 			
 			<!--pool-->
-			<a-box color="#32FDFF" width="3" height=".05" depth="4" position = "-4 0.01 7" ></a-box>
+			<a-box src="#pool" color="#32FDFF" width="10" height=".05" depth="5" position = "0 0 -9.5" rotation="0 0 0"
+             
+               sound="src: #fire;
+                    autoplay: true;
+                    refDistance: 1;
+                    rolloffFactor: 4"
+             ></a-box>
 
 			<!-- chair and legs -->
 			<a-box color="#A56D15" width=".1" height="1.3" depth=".1"></a-box>
@@ -68,48 +252,295 @@
 			<a-box color="#A56D15" width=".1" height="1.85" depth=".1" position = ".7 0 -.2"></a-box>
 			<a-box color="#A56D15" width=".1" height="1.85" depth=".1" position = ".7 0 .6"></a-box>
 
-			<!-- computer -->
+      
+			<!-- computer DBDBDB-->
 			<a-box color="#343434" width=".5065" height=".05" depth=".9" position = "1.2 1.29 .2" rotation = "0 0 90"></a-box>
-			<a-box color="#DBDBDB" width=".4" height=".05" depth=".8" position = "1.199900 1.295 .2" rotation = "0 0 90"></a-box>
+			<!-- victory screen. clickable-->
+      <a-box src="#league" color="#DBDBDB" width=".05" height=".4" depth=".8" position = "1.199900 1.295 .2" rotation = "0 0 0"  
+             ></a-box>
 
 			<!--base-->
-			<a-cylinder color="#343434" radius=.0375 height=".375" position = "1.24 1.16 .2" rotation = "0 0 0"></a-cylinder>
+			<a-cylinder color="#343434" radius=".0375" height=".375" position = "1.24 1.16 .2" rotation = "0 0 0"></a-cylinder>
 			<!--bottom of base-->
-			<a-cylinder color="#343434" radius=.11 height=".004" position = "1.20 .95 .2" rotation = "0 0 0"></a-cylinder>
-
+			<a-cylinder color="#343434" radius=".11" height=".004" position = "1.20 .95 .2" rotation = "0 0 0"></a-cylinder>
 			<!-- keyboard -->
 			<a-box color="#E7E7E7" width=".27" height=".002" depth=".58" position = ".86 .95 .135" rotation = "0 0 0"></a-box>
 
+      
+			<!--shelf. just a bunch of boxes-->
+			<a-box color="#A56D15" width=".7" height=".2" depth="2.9" position = "4.65 0 0"></a-box>
+			<a-box color="#A56D15" width=".7" height=".05" depth="2.9" position = "4.65 .6 0"></a-box>
+			<a-box color="#A56D15" width=".7" height=".05" depth="2.9" position = "4.65 1.1 0"></a-box>
+			<a-box color="#A56D15" width=".7" height=".05" depth="2.9" position = "4.65 1.6 0"></a-box>
+			<a-box color="#A56D15" width=".7" height=".05" depth="2.9" position = "4.65 2.1 0"></a-box>
+			<!--top of shelf-->
+			<a-box color="#A56D15" width=".7" height=".1" depth="2.9" position = "4.65 2.72 0"></a-box>
+			<!--two sides of shelf. right side:-->
+			<a-box color="#A56D15" width=".7" height="2.75" depth=".1" position = "4.65 1.4 -1.45"></a-box>
+			<!--left side:-->
+      <a-box color="#A56D15" width=".7" height="2.75" depth=".1" position = "4.65 1.4 1.45"></a-box>
 
-
-
-			<!--shelf-->
-			<a-box color="#A56D15" width=".7" height=".2" depth="3" position = "4.65 0 3.50"></a-box>
-			<a-box color="#A56D15" width=".7" height=".05" depth="3" position = "4.65 .5 3.50"></a-box>
-			<a-box color="#A56D15" width=".7" height=".05" depth="3" position = "4.65 1 3.50"></a-box>
-			<a-box color="#A56D15" width=".7" height=".05" depth="3" position = "4.65 1.5 3.50"></a-box>
-			<a-box color="#A56D15" width=".7" height=".05" depth="3" position = "4.65 2 3.50"></a-box>
-			<!--topshelf-->
-			<a-box color="#A56D15" width=".7" height=".1" depth="3" position = "4.65 2.7 3.50"></a-box>
-			
-			<!--sides of shelf-->
-			<a-box color="#A56D15" width=".7" height="2.7" depth=".1" position = "4.65 1.4 2.05"></a-box>
-			<a-box color="#A56D15" width=".7" height="2.7" depth=".1" position = "4.65 1.4 4.90"></a-box>
-
+      
 			<!--bed-->
 			<a-box color="#A56D15" width="1.8" height=".1" depth="3.5" position = "-4.1 .9 3.2"></a-box>
 			<!--headboard-->
 			<a-box color="#A56D15" width="1.8" height="1.7" depth=".1" position = "-4.1 0.9 4.90"></a-box>
 			<!--backboard-->
 			<a-box color="#A56D15" width="1.8" height="1" depth=".1" position = "-4.1 0.55 1.5"></a-box>
-
 			<!--mattress-->
 			<a-box color="#D3D3D3" width="1.6" height=".3" depth="3.1" position = "-4.1 1.1 3.2"></a-box>
-			<!--blanket-->
-			<a-box color="#001692" width="1.61" height=".3" depth="2.5" position = "-4.1 1.101 2.8"></a-box>
-			
+			<!--blanket -->
+			<a-box src="#bed" repeat=".8 1" color="#95A5FF" width="1.61" height=".3" depth="2.5" position = "-4.1 1.101 2.8"></a-box>
+      
+      <!--pillows-->
+      <a-gltf-model position="-4.15 1.5 4.2" scale=".005 .004 .005" rotation="0 0 0" src="#pillow"></a-gltf-model>
+      
+      
+      <!--fan-->
+      <a-cylinder position="1 3 0" radius=".4" height=".21" color="#F5942C">
+        <!--made an entity which rotates-->
+        <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 3000; easing: linear;">
+          <!--put a bunch of slightly curved, flat boxes inside of that entity so they can rotate with the entity-->
+          <a-box position="1.2 0 0" width="2" height=".02" depth=".5" color="#FFA648" rotation="5 0 0"></a-box>
+          <a-box position="-1.2 0 0" width="2" height=".02" depth=".5" color="#FFA648" rotation="5 0 0"></a-box>
+          <a-box position="0 0 1.2" width="2" height=".02" depth=".5" color="#FFA648" rotation = "5 90 0" ></a-box>
+          <a-box position="0 0 -1.2" width="2" height=".02" depth=".5" color="#FFA648" rotation = "5 90 0" ></a-box>      
+        </a-entity>
+      </a-cylinder>
+      <a-cylinder position="1 3.75 0" radius=".1" height="2" color="#CFCFCF"></a-cylinder>
+      <!--the sylver rim around the fan-->
+      <a-cylinder position="1 3 0" radius=".41" height=".1" color="#CFCFCF"></a-cylinder>
+      
+    <!--plants-->
+    <a-box src ="#lightwood" repeat="3 1" color="#A56D15" width="1.25" height=".35" depth="1.55" position = "-4.4 .8 -3.5"></a-box>
+    <!--cactus-->
+    <a-gltf-model position="-5.25 1.8 -2.75" scale=".2 .2 .22" rotation="0 90 0"src="#cactus"></a-gltf-model>
+    <!--soil-->
+    <a-box src ="#soil" repeat="1 1" color="#9C4700" width="1.2" height=".35" depth="1.35" position = "-4.4 .82 -3.5"></a-box>
+    
+      
+      
+      
+    <!--rug-->
+    <a-plane src="#rug" repeat = "2 2 "width="4" height="4" rotation="-90 0 0" position="-.9 .01 .65" ></a-plane>
+    
+    <!--clock-->
+      <a-cylinder src="#clock" position="4.9 3.65 .1" rotation ="0 0 90" radius=".55" height=".1" color="#FFFFFF">
+        <a-entity rotation="0 0 0" animation="property: rotation; to: 0 -360 0; loop: true; dur: 10000; easing: linear;">
+          <a-box position=".25 .1 0" width=".4" height=".01" depth=".05" color="#000000  "></a-box>
+          </a-entity>
+        <a-entity rotation="0 0 0" animation="property: rotation; to: 0 -360 0; loop: true; dur: 120000; easing: linear; delay:130">
+          <a-box position=".15 .05 0" width=".3" height=".01" depth=".05" color="#000000   "></a-box>
+          </a-entity>
+      </a-cylinder>
+      <!--the spoke in the clock-->
+      <a-cylinder position="4.8 3.65 .1" rotation ="90 0 90" radius=".05" height=".15" color="#CFCFCF"></a-cylinder>
+      
+      <!--Calendar that says Covid 19-->
+      <a-plane src="#calendar" width="3" height="2.2" rotation="0 -180 0" position="0 1.8 4.93" material="shader:flat"
+               animation__mouseleave="property: material.opacity; startEvents: click; to: 0; dur:500; loop: false; easing: linear; delay: 0"
+               ></a-plane>
+      <a-plane color="grey" src="#calendar" width="3" height="2.2" rotation="0 -180 0" position="0 1.8 4.94" material="shader:flat"
+               ></a-plane>
+      <!--color="#CFCFCF"-->
+      
+      <!--color="#CFCFCF"-->
+      
+      <!--BRICK-->
+      <!--North windowed BRICK wall-->
+			<a-box src="#bricks" repeat ="7 1"  width="10.2" height="1" depth=".1" position = "0 4 -5.1"></a-box>
+			<a-box src="#bricks" repeat ="7 1"  width="10.2" height="1" depth=".1" position = "0 .5 -5.1"></a-box>
+      <!--South BRICK wall-->
+			<a-box src="#bricks" repeat ="5 5" width="10.2" height="9" depth=".1" position = "0 0 5.1"></a-box>
+			<!--Right BRICK Wall-->
+			<a-box src="#bricks" repeat ="5 5" width="10.1" height="9" depth=".1" position = "-5.1 0 0" rotation="0 90 0"></a-box>
+			<!--Left BRICK Wall-->
+			<a-box src="#bricks" repeat ="5 5"width="10.1" height="9" depth=".1" position = "5.1 0 0" rotation="0 90 0"></a-box>
 
-
-		</a-scene>
-	</body>
+      
+      <!--Chimney/Fire-->
+      <!--first piece is bottom Chimney. all the other box are "inside" of this box-->
+      <a-box src="#bricks" repeat=".55 .75" width="2" depth="2" height="2" position="4 -.5 4" rotation ="0 0 0">
+          <!--all of these chimeny pieces are wrapped inside of that first chimney base-->
+        
+          <!--big top part-->
+          <a-box src="#bricks" repeat=".55 .85" width="2"  height="2" depth="2" position="0 3.5 0">
+              <a-light type="point" color="yellow" position="1 -1.8 1" intensity=".2"></a-light>    
+          </a-box>
+        
+          <!--cosmetic-->
+          <a-box width="1.5"  height="3" depth="1.5" position="0 5 0" color="#A5A5A5"></a-box>
+          <a-box width="1.75"  height=".2" depth="1.75" position="0 4.65 0" color="#C17500"></a-box>
+        
+          <!--sides-->
+          <a-box src="#bricks" repeat=".4 .6" width=".01"  height="1.6" depth="1.95" position=".95 1.7 0"></a-box>
+          <a-box src="#bricks" repeat=".4 .6" width="1.95"  height="1.6" depth=".01" position="0 1.7 .95"></a-box>
+        
+          <!--chimney glass-->
+          <a-box color="#000000" material="transparent: true; opacity: .1" width=".01"  height="1.6" depth="0.975" position="-.95 1.7 .5"></a-box>
+          <a-box color="#000000" material="transparent: true; opacity: .1" width="1.95"  height="1.6" depth=".01" position="0 1.7 -.95"></a-box>
+          
+            <!--second glass. you can open and close it-->
+                <a-box position="-.97 1.7 0" material="transparent: true; opacity: 0.1" width=".1"  height="1.6" depth=".975" 
+                       animation__mouseenter="property: position; startEvents: mouseenter; to: -.97 1.7 -.47; dur:1000; loop: false; easing: linear; delay: 100"
+                       animation__mouseleave="property: position; startEvents: click; to: -.97 1.7 0; dur:1000; loop: false; easing: linear; delay: 0"
+                       >
+                    
+                    <!--chimney glass door handle-->
+                    <a-box color="#000000" position="0 0 0" material="transparent: true; opacity: .1" width=".01"  height="1.6" depth="0.975"></a-box>
+                    <a-box position="-.1 0 -.35" scale=".05 .375 .05" color="#BB841B"></a-box>
+                    <a-box position="-.05 .110 -.35"scale=".05 .05 .05" color="#BB841B"></a-box>
+                    <a-box position="-.05 -.110 -.35"scale=".05 .05 .05" color="#BB841B"></a-box>
+                    
+                </a-box>
+        
+                
+          
+          <!--fire 1-->
+          <a-box color="yellow" width= ".3" height=".2" depth=".3" position="-.05 .96 0" rotation = "0 0 0"  
+               animation="property: position; to: -0.05 1.5 0; dur:500; loop: true; easing: linear; delay: 0"
+               
+               ></a-box>
+          <!--fire 2-->
+          <a-box color="yellow" width= ".3" height=".2" depth=".3" position="0 1 .35" rotation = "0 0 0"  
+               animation="property: position; to: 0 1.5 .35; dur:800; loop: true; easing: linear; delay: 1200"       
+               ></a-box>
+          <!--fire 3-->
+          <a-box color="yellow" width= ".3" height=".2" depth=".3" position="0 1 -.35" rotation = "0 0 0"  
+               animation="property: position; to: 0 1.5 -.35; dur:800; loop: true; easing: linear; delay: 1000"
+               ></a-box>
+          <!--fire 4-->
+          <a-box color="yellow" width= ".3" height=".2" depth=".3" position="-.05 .96 0" rotation = "0 0 0"  
+               animation="property: position; to: -0.05 1.7 0; dur:700; loop: true; easing: linear; delay: 1000"   
+               ></a-box>
+          <!--fire 5-->
+          <a-box color="yellow" width= ".3" height=".2" depth=".3" position="0 1 .35" rotation = "0 0 0"  
+               animation="property: position; to: 0 1.7 .35; dur:900; loop: true; easing: linear; delay: 2200"  
+               ></a-box>
+          <!--fire 6-->
+          <a-box color="yellow" width= ".3" height=".2" depth=".3" position="0 1 -.35" rotation = "0 0 0"  
+               animation="property: position; to: 0 1.6 -.35; dur:600; loop: true; easing: linear; delay: 2000"           
+               ></a-box>
+      </a-box>
+      
+      <!--roof-->
+      <a-box src="#lightwood" repeat ="7 10" width="10" height=".005" depth="10" position = "0 4.5 0" scale="1 1 1" rotation="0 90 0" color="#ECAE4E" material="shader:flat"></a-box>
+  
+      <!--transparent images-->
+      <!--leia-->
+      <a-image src="#leia" position="-2.75 1.25 -3.4" width="2.3" height="2.3" color="#abffff" rotation="0 90 0" material="transparent: true; opacity: .4"></a-image>
+      <!--holographic projection-->
+      
+      <!--hologram-->
+      <a-plane src="#hologram" color="#28ebeb" rotation="-180 0 17" position="0.95 -.1 -3.9" scale="-7.15 2 -1" material="transparent: true; opacity: .25"></a-plane> 
+      <!--web corners--> 
+      <!--web on door, on walls
+      <a-image color="red" src="#web" rotation="0 80 0" position="-4.65 1.5 0" scale="2 1.5 1" material="transparent: true; opacity: .5"></a-image> 
+      <a-image color="red" src="#web" rotation="0 80 0" position="-4.65 3 0" scale="2 -1.5 1" material="transparent: true; opacity: .5"></a-image> 
+      <a-image color="red" src="#web" rotation="0 90 0" position="-4.851 1.5 1.9" scale="-2 1.5 1" material="transparent: true; opacity: .5"></a-image> 
+      <a-image color="red" src="#web" rotation="0 90 0" position="-4.851 3 1.9" scale="-2 -1.5 1" material="transparent: true; opacity: .5"></a-image> 
+      
+      <a-image src="#web" rotation="0 90 90" position="-4.63 3.55 3.5" scale="-1 3 1" material="transparent: true; opacity: .5"></a-image> 
+      <a-image src="#web" rotation="90 90 90" position="-4.1 4. 3.5" scale="1 3 1" material="transparent: true; opacity: .5"></a-image> 
+      <a-image src="#web" rotation="0 0 0" position="-4.1 3.5 4.9" scale="1 1 1" material="transparent: true; opacity: .5"></a-image> 
+      
+      
+      <a-image src="#web" rotation="0 0 0" position="4.5 3.9 -1.1" scale="-1 1 1" material="transparent: true; opacity: .5"></a-image> 
+      <a-image src="#web" rotation="0 0 0" position="4.5 3.9 1.3" scale="-1 1 1" material="transparent: true; opacity: .5"></a-image> 
+      <a-image src="#web" rotation="-180 -18 17" position="4.7 4 -4.7" scale="1 1 -1" material="transparent: true; opacity: .5"></a-image> 
+      <a-image src="#web" rotation="90 0 0" position="-4.2 4.42 -3.4" scale="1.5 -3 -2" material="transparent: true; opacity: .5"></a-image> 
+      
+      
+      -->
+      
+      <!--webs on shelf--> 
+      
+      <a-image src="#web" rotation="0 90 90" position="4.24 2.15 .95" scale="-1 1 1" material="transparent: true; "
+               ></a-image> 
+      <a-image src="#web" rotation="0 -85 5" position="4.55 1.15 -.15" scale="-1 -1 1" material="transparent: true; "
+               ></a-image> 
+      
+      <a-image src="#web" rotation="0 90 0" position="4.25 2.15 -.95" scale="-1 1 1" material="transparent: true"
+               animation__mouseenter="property: material.opacity; startEvents: mouseenter; to: 0; dur:500; loop: false; easing: linear; delay: 0"
+               ></a-image> 
+      
+      <!--spiderman web on door-->
+      <a-image color="red" src="#web" rotation="0 80 0" position="-4.65 1.5 0" scale="2 1.5 1" material="transparent: true; opacity: .5"
+               animation__mouseenter="property: material.opacity; startEvents: mouseenter; to: 0; dur:500; loop: false; easing: linear; delay: 0"
+               ></a-image> 
+      <a-image color="red" src="#web" rotation="0 80 0" position="-4.65 3 0" scale="2 -1.5 1" material="transparent: true; opacity: .5"
+               animation__mouseenter="property: material.opacity; startEvents: mouseenter; to: 0; dur:500; loop: false; easing: linear; delay: 0"
+               ></a-image> 
+      <a-image color="red" src="#web" rotation="0 90 0" position="-4.851 1.5 1.9" scale="-2 1.5 1" material="transparent: true; opacity: .5"
+               animation__mouseenter="property: material.opacity; startEvents: mouseenter; to: 0; dur:500; loop: false; easing: linear; delay: 0"
+               ></a-image> 
+      <a-image color="red" src="#web" rotation="0 90 0" position="-4.851 3 1.9" scale="-2 -1.5 1" material="transparent: true; opacity: .5"
+               animation__mouseenter="property: material.opacity; startEvents: mouseenter; to: 0; dur:500; loop: false; easing: linear; delay: 0"
+               ></a-image> 
+      
+      
+      
+      
+      
+      <!--fan light-->
+      <a-entity id="lightSphere" geometry="primitive: sphere; radius: .2" material="shader:flat" position="1 2.93 0"></a-entity>
+      
+     <!--toilet paper stack-->
+     <a-entity position="1.9 .12 -1.9" scale="1.4 1.4 1.4">
+         <!--toilet paper and roll-->
+         
+         
+         
+         <!--top layer-->
+         <a-cylinder position="0 .4 0" color="#8D8D8D" radius=".021" height=".2002"></a-cylinder> 
+         <a-cylinder position="0 .4 0" color="#D8D8D8" radius=".1" height=".2"></a-cylinder> 
+         
+         <!--second layer of four-->
+         <a-cylinder position="-.1 .2 .08" color="#8D8D8D" radius=".021" height=".2002"></a-cylinder> 
+         <a-cylinder position="-.1 .2 .08" color="#D8D8D8" radius=".1" height=".2"></a-cylinder> 
+         <a-cylinder position=".1 .2 .08" color="#8D8D8D" radius=".021" height=".2002"></a-cylinder> 
+         <a-cylinder position=".1 .2 .08" color="#D8D8D8" radius=".1" height=".2"></a-cylinder> 
+         <a-cylinder position="-.1 .2 -.08" color="#8D8D8D" radius=".021" height=".2002"></a-cylinder> 
+         <a-cylinder position="-.1 .2 -.08" color="#D8D8D8" radius=".1" height=".2"></a-cylinder> 
+         <a-cylinder position=".1 .2 -.08" color="#8D8D8D" radius=".021" height=".2002"></a-cylinder> 
+         <a-cylinder position=".1 .2 -.08" color="#D8D8D8" radius=".1" height=".2"></a-cylinder> 
+         
+       
+         <!--third layer-->
+         <a-cylinder position=".2 0 0" color="#8D8D8D" radius=".021" height=".2002"></a-cylinder> 
+         <a-cylinder position=".2 0 0" color="#D8D8D8" radius=".1" height=".2"></a-cylinder> 
+       
+         <a-cylinder position="0 0 .2" color="#8D8D8D" radius=".021" height=".2002"></a-cylinder> 
+         <a-cylinder position="0 0 .2" color="#D8D8D8" radius=".1" height=".2"></a-cylinder> 
+       
+         <a-cylinder position="-.2 0 0" color="#8D8D8D" radius=".021" height=".2002"></a-cylinder> 
+         <a-cylinder position="-.2 0 0" color="#D8D8D8" radius=".1" height=".2"></a-cylinder> 
+       
+         <a-cylinder position="0 0 -.2" color="#8D8D8D" radius=".021" height=".2002"></a-cylinder> 
+         <a-cylinder position="0 0 -.2" color="#D8D8D8" radius=".1" height=".2"></a-cylinder> 
+       
+         <a-cylinder position=".2 0 -.2" color="#8D8D8D" radius=".021" height=".2002"></a-cylinder> 
+         <a-cylinder position=".2 0 -.2" color="#D8D8D8" radius=".1" height=".2"></a-cylinder> 
+       
+         <a-cylinder position="-.2 0 .2" color="#8D8D8D" radius=".021" height=".2002"></a-cylinder> 
+         <a-cylinder position="-.2 0 .2" color="#D8D8D8" radius=".1" height=".2"></a-cylinder> 
+       
+         <a-cylinder position=".2 0 .2" color="#8D8D8D" radius=".021" height=".2002"></a-cylinder> 
+         <a-cylinder position=".2 0 .2" color="#D8D8D8" radius=".1" height=".2"></a-cylinder> 
+       
+         <a-cylinder position="-.2 0 -.2" color="#8D8D8D" radius=".021" height=".2002"></a-cylinder> 
+         <a-cylinder position="-.2 0 -.2" color="#D8D8D8" radius=".1" height=".2"></a-cylinder> 
+         
+       
+     </a-entity> 
+     
+     <!--A Text Prompt that Asks the Player to Click on the Chimney Glass-->
+     <a-text rotation="0 -90 0" value="Try interacting with" position="3 2.75 3" color="#FFF"></a-text>  
+     <a-text rotation="0 -90 0" value="the chimney" position="3 2.45 3.1" color="#FFF"></a-text>  
+     <!--A Text Prompt that Asks the Player to Click on the Calendar-->
+     <a-text rotation="0 -180 0" value="Try clicking on the calendar" position="1.38 3.3 4.9" color="#FFF"></a-text>
+      
+      
+    </a-scene>
+  </body>
 </html>
