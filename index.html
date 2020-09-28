@@ -17,6 +17,7 @@
         <img id="soil" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/soil.jpg">
         <img id="rug" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/rug.jpeg">
         <img id="calendar" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/calendar.jpg">
+        <img id="calendar2" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/calendar2.jpg">
         <img id="bricks" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/bricks.jpg">
         <img id="clock"  src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/clock2.png">     
         <img id="hologram" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/hologram.png">     
@@ -95,8 +96,8 @@
       <!--Also contains right and left hand for when you use motion controls positioned where the camera is-->
       
       <a-entity id="rig" position="-.4 1.35 -3.75" rotation="0 180 0">
-          <a-entity id="camera" camera look-controls wasd-controls acceleration="10">
-            <a-entity cursor="fuse: true; fuseTimeout: 500; interval:2000; cursorStylesEnables:false"
+          <a-entity id="camera" camera look-controls wasd-controls>
+            <a-entity cursor="fuse: true; fuseTimeout: 500; interval:1000; objects: .collidable"
             position="0 0 -1"
             geometry="primitive: ring; radiusInner: 0.02; radiusOuter: 0.03"
             material="color: black; shader: flat"
@@ -164,9 +165,9 @@
       
       
       
-      <!--books3
+      <!--books3-->
       <a-gltf-model position="4.6 .27 0" scale="1.4 .85 .85" src="#books" rotation="0 90 0"></a-gltf-model>
-      <a-gltf-model position="4.6 2.35 0" scale="1.2 .85 .85" src="#books" rotation="0 -90 0"></a-gltf-model>-->
+      <a-gltf-model position="4.6 2.35 0" scale="1.2 .85 .85" src="#books" rotation="0 -90 0"></a-gltf-model>
 
       <!--book-->
       
@@ -337,10 +338,10 @@
       <a-cylinder position="4.8 3.65 .1" rotation ="90 0 90" radius=".05" height=".15" color="#CFCFCF"></a-cylinder>
       
       <!--Calendar that says Covid 19-->
-      <a-plane src="#calendar" width="3" height="2.2" rotation="0 -180 0" position="0 1.8 4.93" material="shader:flat"
+      <a-plane class="collidable" src="#calendar" width="3" height="2.2" rotation="0 -180 0" position="0 1.8 4.93" material="shader:flat"
                animation__mouseleave="property: material.opacity; startEvents: click; to: 0; dur:500; loop: false; easing: linear; delay: 0"
                ></a-plane>
-      <a-plane color="grey" src="#calendar" width="3" height="2.2" rotation="0 -180 0" position="0 1.8 4.94" material="shader:flat"
+      <a-plane src="#calendar2" width="3" height="2.2" rotation="0 -180 0" position="0 1.8 4.94" material="shader:flat"
                ></a-plane>
       <!--color="#CFCFCF"-->
       
@@ -381,7 +382,7 @@
           <a-box color="#000000" material="transparent: true; opacity: .1" width="1.95"  height="1.6" depth=".01" position="0 1.7 -.95"></a-box>
           
             <!--second glass. you can open and close it-->
-                <a-box position="-.97 1.7 0" material="transparent: true; opacity: 0.1" width=".1"  height="1.6" depth=".975" 
+                <a-box class="collidable" position="-.97 1.7 0" material="transparent: true; opacity: 0.1" width=".1"  height="1.6" depth=".975" 
                        animation__mouseenter="property: position; startEvents: mouseenter; to: -.97 1.7 -.47; dur:1000; loop: false; easing: linear; delay: 100"
                        animation__mouseleave="property: position; startEvents: click; to: -.97 1.7 0; dur:1000; loop: false; easing: linear; delay: 0"
                        >
@@ -455,26 +456,23 @@
       
       <!--webs on shelf--> 
       
-      <a-image src="#web" rotation="0 90 90" position="4.24 2.15 .95" scale="-1 1 1" material="transparent: true; "
-               ></a-image> 
-      <a-image src="#web" rotation="0 -85 5" position="4.55 1.15 -.15" scale="-1 -1 1" material="transparent: true; "
-               ></a-image> 
       
-      <a-image src="#web" rotation="0 90 0" position="4.25 2.15 -.95" scale="-1 1 1" material="transparent: true"
+      
+      <a-image class="collidable" src="#web" rotation="0 90 0" position="4.25 2.1 -.95" scale="-1 1 1" material="transparent: true"
                animation__mouseenter="property: material.opacity; startEvents: mouseenter; to: 0; dur:500; loop: false; easing: linear; delay: 0"
-               ></a-image> 
+               ></a-image>
       
       <!--spiderman web on door-->
-      <a-image color="red" src="#web" rotation="0 80 0" position="-4.65 1.5 0" scale="2 1.5 1" material="transparent: true; opacity: .5"
+      <a-image class="collidable" color="red" src="#web" rotation="0 80 0" position="-4.65 1.5 0" scale="2 1.5 1" material="transparent: true; opacity: .5"
                animation__mouseenter="property: material.opacity; startEvents: mouseenter; to: 0; dur:500; loop: false; easing: linear; delay: 0"
                ></a-image> 
-      <a-image color="red" src="#web" rotation="0 80 0" position="-4.65 3 0" scale="2 -1.5 1" material="transparent: true; opacity: .5"
+      <a-image class="collidable" color="red" src="#web" rotation="0 80 0" position="-4.65 3 0" scale="2 -1.5 1" material="transparent: true; opacity: .5"
                animation__mouseenter="property: material.opacity; startEvents: mouseenter; to: 0; dur:500; loop: false; easing: linear; delay: 0"
                ></a-image> 
-      <a-image color="red" src="#web" rotation="0 90 0" position="-4.851 1.5 1.9" scale="-2 1.5 1" material="transparent: true; opacity: .5"
+      <a-image class="collidable" color="red" src="#web" rotation="0 90 0" position="-4.851 1.5 1.9" scale="-2 1.5 1" material="transparent: true; opacity: .5"
                animation__mouseenter="property: material.opacity; startEvents: mouseenter; to: 0; dur:500; loop: false; easing: linear; delay: 0"
                ></a-image> 
-      <a-image color="red" src="#web" rotation="0 90 0" position="-4.851 3 1.9" scale="-2 -1.5 1" material="transparent: true; opacity: .5"
+      <a-image class="collidable" color="red" src="#web" rotation="0 90 0" position="-4.851 3 1.9" scale="-2 -1.5 1" material="transparent: true; opacity: .5"
                animation__mouseenter="property: material.opacity; startEvents: mouseenter; to: 0; dur:500; loop: false; easing: linear; delay: 0"
                ></a-image> 
       
@@ -539,6 +537,8 @@
      <a-text rotation="0 -90 0" value="the chimney" position="3 2.45 3.1" color="#FFF"></a-text>  
      <!--A Text Prompt that Asks the Player to Click on the Calendar-->
      <a-text rotation="0 -180 0" value="Try clicking on the calendar" position="1.38 3.3 4.9" color="#FFF"></a-text>
+     <!--A Text Prompt that Asks the User to look at the webs-->
+     <a-text rotation="0 -90 0"  scalr=".8" value="Look at the webs" position="4.3 2.75 -1.45" color="#FFF"></a-text>  
       
       
     </a-scene>
