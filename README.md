@@ -95,3 +95,8 @@ I orignally just made the animation property="material: opacity" and set "to: 0"
 to the floor.
 The calendar was a much easier feat to accomplish since I had already created a seperate image for the cleaned calendar. 
 Pillows were the last image I had added to the room. 
+
+Videos which depict my project: 
+https://www.youtube.com/watch?v=NMsRm1Ap2lY
+
+https://www.youtube.com/watch?v=b1iYXouXOOk
