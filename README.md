@@ -2,43 +2,6 @@
 
 https://lavender-tame-tote.glitch.me/
 
-List of the Models I created:
-
-1. Chair
-
-2. Table
-
-3. Computer
-
-4. Chimeny
-
-5. Fireplace Glass/ Glass Door Handle (which animates!)
-
-6. Fan
-
-7. Clock (I made and animated those objects with two boxes and two cylinders, only added a clock image afterwards)
-
-8. Bed
-
-9. Shelf.
-
-10. Plant Bed with soild
-
-11. Pool. (thin box)
-
-12. Sun (sphere, with lighting)
-
-13. Rug (thin box)
-
-14. Windows (multiple walls, with perches, beams, translucent windows from the outside)
-
-15. Brick Walls
-
-16. Keyboard (its just a white box, but hey!)
-
-17. Calendars 1 and 2. (I drew them, using paint)
-
-18. Webs (I drew this image in photoshop)
 
 Links to the Images I used: 
 
@@ -185,3 +148,40 @@ https://www.youtube.com/watch?v=NMsRm1Ap2lY
 
 https://www.youtube.com/watch?v=b1iYXouXOOk
 
+List of the Models I created:
+
+1. Chair
+
+2. Table
+
+3. Computer
+
+4. Chimeny
+
+5. Fireplace Glass/ Glass Door Handle (which animates!)
+
+6. Fan
+
+7. Clock (I made and animated those objects with two boxes and two cylinders, only added a clock image afterwards)
+
+8. Bed
+
+9. Shelf.
+
+10. Plant Bed with soild
+
+11. Pool. (thin box)
+
+12. Sun (sphere, with lighting)
+
+13. Rug (thin box)
+
+14. Windows (multiple walls, with perches, beams, translucent windows from the outside)
+
+15. Brick Walls
+
+16. Keyboard (its just a white box, but hey!)
+
+17. Calendars 1 and 2. (I drew them, using paint)
+
+18. Webs (I drew this image in photoshop)
