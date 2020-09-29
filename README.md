@@ -120,7 +120,11 @@ Sun.
 
 Rug.
 
-Window.
+Windows.
+
+Brick Walls
+
+Keyboard
 
 Calendars 1 and 2. (I drew the image)
 
@@ -128,7 +132,29 @@ Webs. (I drew the image)
 
 Links to the Images I used: 
 
+lightwood:
+
+blankets:
+
+computer screen:
+
+pool:
+
+soil:
+
+rug:
+
+bricks:
+
+clock:
+
+hologram: (I cropped out part of this image to create the hologram)
+
+leia: 
+
 Links to the Models I used: 
+
+cactus: 
 
 books: https://sketchfab.com/3d-models/11-books-householdpropschallenge-ea227e0235a54af48ae11142402b4323
 
@@ -141,3 +167,11 @@ ps5 controllers: https://sketchfab.com/3d-models/ps5-controller-f75caead1dc14741
 bb8: https://sketchfab.com/3d-models/bb8-5b78c3ca7dbc4f64b5784bb1fb54b540
 
 storm trooper helmet: https://sketchfab.com/3d-models/storm-trooper-helmet-1e49d4dd73c746d4b131c58dfe471bd7
+
+link: 
+
+desktop pc: 
+
+mouse: 
+
+pillows: 
