@@ -102,13 +102,13 @@ List of the Models I created:
 
 1. Chair
 
-2. Table.
+2. Table
 
-3. Computer.
+3. Computer
 
-4. Chimney.
+4. Chimeny
 
-5. Chimney Glass/Door Handle (which animates!)
+5. Fireplace Glass/ Glass Door Handle (which animates!)
 
 6. Fan
 
@@ -138,29 +138,29 @@ List of the Models I created:
 
 Links to the Images I used: 
 
-lightwood: https://www.google.com/search?q=light+wood&tbm=isch&ved=2ahUKEwicuKjLvI_sAhVXZq0KHVbYDRwQ2-cCegQIABAA&oq=light+wood&gs_lcp=CgNpbWcQAzIECCMQJzIHCAAQsQMQQzIFCAAQsQMyAggAMgQIABBDMgIIADICCAAyAggAMgIIADICCABQngxYngxguA5oAHAAeACAAUaIAUaSAQExmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=Lr1zX5zpC9fMtQXWsLfgAQ&bih=743&biw=1077#imgrc=CxKauI0uyofXAM
+lightwood: https://www.homedepot.com/p/Orchard-Light-Grey-Wood-Panel-Vinyl-Peelable-Roll-Covers-56-sq-ft-414-56909/204206734
 
-blankets:
+blankets: https://www.google.com/search?q=blanket+texture&sxsrf=ALeKk00iiR1PC6J6OTdkQREZaRsdGFob4w:1601420937825&tbm=isch&source=iu&ictx=1&fir=nZAykS20MQuyvM%252C24YyxTSYhi9a9M%252C_&vet=1&usg=AI4_-kR9FyNGNPtoiUzKA27RH6LZrxjvSg&sa=X&ved=2ahUKEwjJ7onxvY_sAhUP2qwKHTiYCT8Q9QF6BAgKEGg&biw=1077&bih=787#imgrc=nZAykS20MQuyvM
 
-computer screen:
+computer screen: https://www.google.com/search?q=victory+league+screen&tbm=isch&sxsrf=ALeKk00ou5galRiMlSRYL36ZiTxX3BNBNw:1601421078318&source=lnms&sa=X&ved=0ahUKEwj104i0vo_sAhUIcq0KHbO_CJ8Q_AUI6wQoAQ&biw=1077&bih=787#imgrc=GU7VCwGwygUG8M
 
-pool:
+pool: https://www.google.com/search?q=pool+texture&sxsrf=ALeKk00ju_78dDeDWzNMwaS_eO2_cigvdg:1601421108417&tbm=isch&source=iu&ictx=1&fir=DISqSgxzFBq_pM%252C-7ap5zgGt0TcEM%252C_&vet=1&usg=AI4_-kSwQezuyszzmfkYAy37Qn_SiT0faA&sa=X&ved=2ahUKEwiy1rXCvo_sAhVGA6wKHetnC2UQ9QF6BAgKEFk&biw=1077&bih=787#imgrc=DISqSgxzFBq_pM
 
-soil:
+soil: https://www.google.com/search?q=soil+texture&tbm=isch&ved=2ahUKEwjexcnEvo_sAhUBD60KHVhnCVQQ2-cCegQIABAA&oq=soil+&gs_lcp=CgNpbWcQARgAMgQIIxAnMgcIABCxAxBDMgQIABBDMgUIABCxAzIFCAAQsQMyBQgAELEDMgQIABBDMgcIABCxAxBDMgQIABBDMgUIABCxAzoCCABQl2FY42dg0nBoAHAAeACAAYwBiAGXA5IBAzQuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=OL9zX97JOIGetAXYzqWgBQ&bih=787&biw=1077#imgrc=48g_noVpnoTGuM
 
-rug:
+rug: https://www.google.com/search?q=rug+texture&tbm=isch&ved=2ahUKEwid2JvMvo_sAhUC0qwKHYkDAUsQ2-cCegQIABAA&oq=rug+texture&gs_lcp=CgNpbWcQAzIECCMQJzIECAAQQzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAOgYIABAHEB5Q125YzHdgq3loAXAAeACAAVaIAYUCkgEBNJgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=SL9zX52UOoKkswWJh4TYBA&bih=787&biw=1077#imgrc=jt4cf1GkRtiE3M
 
-bricks:
+bricks: https://www.google.com/search?q=bricks+texture&tbm=isch&ved=2ahUKEwiFsLDUvo_sAhVJ0KwKHZKECpAQ2-cCegQIABAA&oq=bricks+texture&gs_lcp=CgNpbWcQAzIECCMQJzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoGCAAQBxAeOgQIABBDUJ1iWOhoYNVqaABwAHgAgAFiiAGvA5IBATaYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=Wr9zX4WbBMmgswWSiaqACQ&bih=787&biw=1077#imgrc=P34gF_EuEAT_QM
 
-clock:
+clock: https://www.deviantart.com/agf81/art/Clock-Face-2-169291889
 
-hologram: (I cropped out part of this image to create the hologram)
+hologram: (I cropped out part of this image to create the hologram) https://www.pinterest.com/pin/58828338865930590/?nic_v2=1a3VNccUC
 
-leia: 
+leia: https://www.google.com/search?q=leia+transparent+3d+model&tbm=isch&ved=2ahUKEwizjsqGv4_sAhUKaq0KHa3aD9IQ2-cCegQIABAA&oq=leia+tra&gs_lcp=CgNpbWcQARgAMgQIIxAnMgIIADICCAAyAggAMgYIABAFEB4yBggAEAUQHjIGCAAQBRAeMgYIABAFEB4yBggAEAUQHjIGCAAQBRAeOgcIABCxAxBDOgQIABBDOgUIABCxA1C-E1jGFmD-G2gAcAB4AIABWogBhwKSAQE0mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=w79zX_OgFYrUtQWttb-QDQ&bih=743&biw=1077#imgrc=y35VAK0WX0ttIM&imgdii=_kaoVIN3bxW7cM
 
 Links to the Models I used: 
 
-cactus: 
+cactus: https://sketchfab.com/3d-models/fishhook-barrel-cactus-plantpointschallenge-1f088de099d24cea9d8bba2a3d067403
 
 books: https://sketchfab.com/3d-models/11-books-householdpropschallenge-ea227e0235a54af48ae11142402b4323
 
@@ -174,10 +174,12 @@ bb8: https://sketchfab.com/3d-models/bb8-5b78c3ca7dbc4f64b5784bb1fb54b540
 
 storm trooper helmet: https://sketchfab.com/3d-models/storm-trooper-helmet-1e49d4dd73c746d4b131c58dfe471bd7
 
-link: 
+link: https://sketchfab.com/3d-models/link-from-legend-of-zelda-dcb4cf57af564a00b702f995a9a69f1
 
-desktop pc: 
+desktop pc: https://sketchfab.com/search?q=computer+desktop&sort_by=-relevance&type=models
 
-mouse: 
+mouse: https://sketchfab.com/search?q=mouse+computer&sort_by=-relevance&type=models
 
-pillows: 
+pillows(printed two of them): https://sketchfab.com/3d-models/pillow-fb3ff27a30bb4243b8006bc997f4d8a4
+
+door: https://sketchfab.com/3d-models/lowpoly-door-809e9d0da4f34b819de5668252ead5f0
