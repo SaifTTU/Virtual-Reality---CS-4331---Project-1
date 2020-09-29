@@ -4,7 +4,19 @@ https://lavender-tame-tote.glitch.me/
 
 Links to the Images I used: 
 
-Links to the Models I used:
+Links to the Models I used: 
+
+books: https://sketchfab.com/3d-models/11-books-householdpropschallenge-ea227e0235a54af48ae11142402b4323
+
+nintendo switch: https://sketchfab.com/3d-models/nintendo-switch-75c5052910ea46feaad64509d96556fe
+
+ps5: https://sketchfab.com/3d-models/ps5-d788de3735964151a3e24fd59c0f1956
+
+ps5 controllers: https://sketchfab.com/3d-models/ps5-controller-f75caead1dc1474195eb32a7f4c71117
+
+bb8: https://sketchfab.com/3d-models/bb8-5b78c3ca7dbc4f64b5784bb1fb54b540
+
+storm trooper helmet: https://sketchfab.com/3d-models/storm-trooper-helmet-1e49d4dd73c746d4b131c58dfe471bd7
 
 In the process of making this scene I first encountered Danilo Pasquariello's amazing tutorial playlist on youtube: 
 https://www.youtube.com/watch?v=ktjMCanKNLk&list=PL8MkBHej75fJD-HveDzm4xKrciC5VfYuV
