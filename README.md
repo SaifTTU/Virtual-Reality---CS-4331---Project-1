@@ -100,19 +100,31 @@ https://www.youtube.com/watch?v=b1iYXouXOOk
 
 List of the Models I created:
 
-Chair
-Table
-Computer
-Chimney
-Bed
-Shelf
-Plant Bed
-Pool
-Sun
-Rug
-Window
-Calendars 1 and 2
-Webs
+Chair.
+
+Table.
+
+Computer.
+
+Chimney.
+
+Bed.
+
+Shelf.
+
+Plant Bed.
+
+Pool.
+
+Sun.
+
+Rug.
+
+Window.
+
+Calendars 1 and 2. (I drew the image)
+
+Webs. (I drew the image)
 
 Links to the Images I used: 
 
