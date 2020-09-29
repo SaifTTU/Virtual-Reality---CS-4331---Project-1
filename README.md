@@ -100,39 +100,45 @@ https://www.youtube.com/watch?v=b1iYXouXOOk
 
 List of the Models I created:
 
-Chair.
+1. Chair
 
-Table.
+2. Table.
 
-Computer.
+3. Computer.
 
-Chimney.
+4. Chimney.
 
-Bed.
+5. Chimney Glass/Door Handle (which animates!)
 
-Shelf.
+6. Fan
 
-Plant Bed.
+7. Clock (I made and animated those objects with two boxes and two cylinders, only added a clock image afterwards)
 
-Pool.
+8. Bed
 
-Sun.
+9. Shelf.
 
-Rug.
+10. Plant Bed with soild
 
-Windows.
+11. Pool. (thin box)
 
-Brick Walls
+12. Sun (sphere, with lighting)
 
-Keyboard
+13. Rug (thin box)
 
-Calendars 1 and 2. (I drew the image)
+14. Windows (multiple walls, with perches, beams, translucent windows from the outside)
 
-Webs. (I drew the image)
+15. Brick Walls
+
+16. Keyboard (its just a white box, but hey!)
+
+17. Calendars 1 and 2. (I drew them, using paint)
+
+18. Webs (I drew this image in photoshop)
 
 Links to the Images I used: 
 
-lightwood:
+lightwood: https://www.google.com/search?q=light+wood&tbm=isch&ved=2ahUKEwicuKjLvI_sAhVXZq0KHVbYDRwQ2-cCegQIABAA&oq=light+wood&gs_lcp=CgNpbWcQAzIECCMQJzIHCAAQsQMQQzIFCAAQsQMyAggAMgQIABBDMgIIADICCAAyAggAMgIIADICCABQngxYngxguA5oAHAAeACAAUaIAUaSAQExmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=Lr1zX5zpC9fMtQXWsLfgAQ&bih=743&biw=1077#imgrc=CxKauI0uyofXAM
 
 blankets:
 
