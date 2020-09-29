@@ -2,6 +2,93 @@
 
 https://lavender-tame-tote.glitch.me/
 
+List of the Models I created:
+
+1. Chair
+
+2. Table
+
+3. Computer
+
+4. Chimeny
+
+5. Fireplace Glass/ Glass Door Handle (which animates!)
+
+6. Fan
+
+7. Clock (I made and animated those objects with two boxes and two cylinders, only added a clock image afterwards)
+
+8. Bed
+
+9. Shelf.
+
+10. Plant Bed with soild
+
+11. Pool. (thin box)
+
+12. Sun (sphere, with lighting)
+
+13. Rug (thin box)
+
+14. Windows (multiple walls, with perches, beams, translucent windows from the outside)
+
+15. Brick Walls
+
+16. Keyboard (its just a white box, but hey!)
+
+17. Calendars 1 and 2. (I drew them, using paint)
+
+18. Webs (I drew this image in photoshop)
+
+Links to the Images I used: 
+
+1. lightwood: https://www.homedepot.com/p/Orchard-Light-Grey-Wood-Panel-Vinyl-Peelable-Roll-Covers-56-sq-ft-414-56909/204206734
+
+2. blankets (title: bedsheets): https://www.freepik.com/free-photo/colorful-bed-sheet-texture_6345746.htm
+
+3. computer screen: https://www.google.com/search?q=victory+league+screen&tbm=isch&sxsrf=ALeKk00ou5galRiMlSRYL36ZiTxX3BNBNw:1601421078318&source=lnms&sa=X&ved=0ahUKEwj104i0vo_sAhUIcq0KHbO_CJ8Q_AUI6wQoAQ&biw=1077&bih=787#imgrc=GU7VCwGwygUG8M
+
+4. pool: https://lh3.googleusercontent.com/proxy/nJK32ogmuf2ptRVA3uDnU6yy8cTz7DEW94zVR_Olv3j84yY6uGKrkPP9AtKXsBC_WC7REfq8Gi0l9v-VGyuTVIKlqxHxfEgs_Bjq91zpPW48jRMr615MPWVaDGcJ5EL3hP0e5Ppb7lrz5RQug0wAcXsyYwrE
+
+5. soil: https://www.pinterest.com/pin/572027590170631712/?nic_v2=1a3VNccUC
+
+6. rug: https://www.fostersfurniture.com/area-rug-texture-confetti-ch20800-midnight-colorway
+
+7. bricks: https://www.123rf.com/photo_87160211_seamless-brick-wall-texture.html
+
+8. clock: https://www.deviantart.com/agf81/art/Clock-Face-2-169291889
+
+9. hologram: (I cropped out part of this image to create the hologram) https://www.pinterest.com/pin/58828338865930590/?nic_v2=1a3VNccUC
+
+10. leia: https://www.pngguru.com/free-transparent-background-png-clipart-raeay
+
+Links to the Models I used: 
+
+1. cactus: https://sketchfab.com/3d-models/fishhook-barrel-cactus-plantpointschallenge-1f088de099d24cea9d8bba2a3d067403
+
+2. books: https://sketchfab.com/3d-models/11-books-householdpropschallenge-ea227e0235a54af48ae11142402b4323
+
+3. nintendo switch: https://sketchfab.com/3d-models/nintendo-switch-75c5052910ea46feaad64509d96556fe
+
+4. ps5: https://sketchfab.com/3d-models/ps5-d788de3735964151a3e24fd59c0f1956
+
+5. ps5 controllers: https://sketchfab.com/3d-models/ps5-controller-f75caead1dc1474195eb32a7f4c71117
+
+6. bb8: https://sketchfab.com/3d-models/bb8-5b78c3ca7dbc4f64b5784bb1fb54b540
+
+7. storm trooper helmet: https://sketchfab.com/3d-models/storm-trooper-helmet-1e49d4dd73c746d4b131c58dfe471bd7
+
+8. link: https://sketchfab.com/3d-models/link-from-legend-of-zelda-dcb4cf57af564a00b702f995a9a69f1
+
+9. desktop pc: https://sketchfab.com/search?q=computer+desktop&sort_by=-relevance&type=models
+
+10. mouse: https://sketchfab.com/search?q=mouse+computer&sort_by=-relevance&type=models
+
+11. pillows(printed two of them): https://sketchfab.com/3d-models/pillow-fb3ff27a30bb4243b8006bc997f4d8a4
+
+12. door: https://sketchfab.com/3d-models/lowpoly-door-809e9d0da4f34b819de5668252ead5f0
+
+
 In the process of making this scene I first encountered Danilo Pasquariello's amazing tutorial playlist on youtube: 
 https://www.youtube.com/watch?v=ktjMCanKNLk&list=PL8MkBHej75fJD-HveDzm4xKrciC5VfYuV
 
@@ -98,88 +185,3 @@ https://www.youtube.com/watch?v=NMsRm1Ap2lY
 
 https://www.youtube.com/watch?v=b1iYXouXOOk
 
-List of the Models I created:
-
-1. Chair
-
-2. Table
-
-3. Computer
-
-4. Chimeny
-
-5. Fireplace Glass/ Glass Door Handle (which animates!)
-
-6. Fan
-
-7. Clock (I made and animated those objects with two boxes and two cylinders, only added a clock image afterwards)
-
-8. Bed
-
-9. Shelf.
-
-10. Plant Bed with soild
-
-11. Pool. (thin box)
-
-12. Sun (sphere, with lighting)
-
-13. Rug (thin box)
-
-14. Windows (multiple walls, with perches, beams, translucent windows from the outside)
-
-15. Brick Walls
-
-16. Keyboard (its just a white box, but hey!)
-
-17. Calendars 1 and 2. (I drew them, using paint)
-
-18. Webs (I drew this image in photoshop)
-
-Links to the Images I used: 
-
-lightwood: https://www.homedepot.com/p/Orchard-Light-Grey-Wood-Panel-Vinyl-Peelable-Roll-Covers-56-sq-ft-414-56909/204206734
-
-blankets (title: bedsheets): https://www.freepik.com/free-photo/colorful-bed-sheet-texture_6345746.htm
-
-computer screen: https://www.google.com/search?q=victory+league+screen&tbm=isch&sxsrf=ALeKk00ou5galRiMlSRYL36ZiTxX3BNBNw:1601421078318&source=lnms&sa=X&ved=0ahUKEwj104i0vo_sAhUIcq0KHbO_CJ8Q_AUI6wQoAQ&biw=1077&bih=787#imgrc=GU7VCwGwygUG8M
-
-pool: https://lh3.googleusercontent.com/proxy/nJK32ogmuf2ptRVA3uDnU6yy8cTz7DEW94zVR_Olv3j84yY6uGKrkPP9AtKXsBC_WC7REfq8Gi0l9v-VGyuTVIKlqxHxfEgs_Bjq91zpPW48jRMr615MPWVaDGcJ5EL3hP0e5Ppb7lrz5RQug0wAcXsyYwrE
-
-soil: https://www.pinterest.com/pin/572027590170631712/?nic_v2=1a3VNccUC
-
-rug: https://www.fostersfurniture.com/area-rug-texture-confetti-ch20800-midnight-colorway
-
-bricks: https://www.123rf.com/photo_87160211_seamless-brick-wall-texture.html
-
-clock: https://www.deviantart.com/agf81/art/Clock-Face-2-169291889
-
-hologram: (I cropped out part of this image to create the hologram) https://www.pinterest.com/pin/58828338865930590/?nic_v2=1a3VNccUC
-
-leia: https://www.pngguru.com/free-transparent-background-png-clipart-raeay
-
-Links to the Models I used: 
-
-1. cactus: https://sketchfab.com/3d-models/fishhook-barrel-cactus-plantpointschallenge-1f088de099d24cea9d8bba2a3d067403
-
-2. books: https://sketchfab.com/3d-models/11-books-householdpropschallenge-ea227e0235a54af48ae11142402b4323
-
-3. nintendo switch: https://sketchfab.com/3d-models/nintendo-switch-75c5052910ea46feaad64509d96556fe
-
-4. ps5: https://sketchfab.com/3d-models/ps5-d788de3735964151a3e24fd59c0f1956
-
-5. ps5 controllers: https://sketchfab.com/3d-models/ps5-controller-f75caead1dc1474195eb32a7f4c71117
-
-6. bb8: https://sketchfab.com/3d-models/bb8-5b78c3ca7dbc4f64b5784bb1fb54b540
-
-7. storm trooper helmet: https://sketchfab.com/3d-models/storm-trooper-helmet-1e49d4dd73c746d4b131c58dfe471bd7
-
-8. link: https://sketchfab.com/3d-models/link-from-legend-of-zelda-dcb4cf57af564a00b702f995a9a69f1
-
-9. desktop pc: https://sketchfab.com/search?q=computer+desktop&sort_by=-relevance&type=models
-
-10. mouse: https://sketchfab.com/search?q=mouse+computer&sort_by=-relevance&type=models
-
-11. pillows(printed two of them): https://sketchfab.com/3d-models/pillow-fb3ff27a30bb4243b8006bc997f4d8a4
-
-12. door: https://sketchfab.com/3d-models/lowpoly-door-809e9d0da4f34b819de5668252ead5f0
