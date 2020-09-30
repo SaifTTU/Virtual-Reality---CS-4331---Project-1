@@ -25,6 +25,14 @@ Links to the Images I used:
 
 10. leia: https://www.pngguru.com/free-transparent-background-png-clipart-raeay
 
+11. Social Distancing Sign: https://www.seton.com/be-mindful-of-social-distancing-sign-bk0322.html?utm_campaign=PC-01-Safety%26FacilitySigns_SocialDistancingSignsCOVID19_Seton_PLA_NB_C_Google_US&utm_source=google&utm_medium=cpc&utm_term=&matchtype=&device=c&adgroupid=Social+Distancing+Signs&keycode=WS0282&gclid=CjwKCAjw2dD7BRASEiwAWCtCbzAEAsZEkHSlcJk9CP-ITifV4AUxf9F_8nJOhtaIQXkmn6pzjVeVXRoC_5kQAvD_BwE&gclsrc=aw.ds
+
+12. Mask Required Sign: https://mn.gov/covid19/media/share-message/for-businesses/index.jsp
+
+13. Wear A Mask Sign: https://stratospheredesigns.com/posts/free-printable-face-mask-safety-signs-in-8-colors/
+
+14. Floor decal: https://www.seton.com/floor-safety-signs-stay-6-feet-apart-blue-me1116.html?utm_campaign=PC-01-FacilitySigns_CatchAllTest_Seton_PLA_NB_C_Google_US&utm_source=google&utm_medium=cpc&utm_term=&matchtype=&device=c&adgroupid=Catchall&keycode=WS0282&gclid=CjwKCAjw2dD7BRASEiwAWCtCbyURPD_FgdS3WnEwKANRPsEKRie0Hvt75oonBf8JmtwgwR2NfNWpWRoCHbQQAvD_BwE&gclsrc=aw.ds
+
 Links to the Models I used: 
 
 1. cactus: https://sketchfab.com/3d-models/fishhook-barrel-cactus-plantpointschallenge-1f088de099d24cea9d8bba2a3d067403
