@@ -51,6 +51,8 @@ Links to the Models I used:
 
 12. door: https://sketchfab.com/3d-models/lowpoly-door-809e9d0da4f34b819de5668252ead5f0
 
+13. hand sanitizer: https://sketchfab.com/3d-models/sanitizer-bottle-ec67d7141333464ca1061320452f06a2
+
 
 In the process of making this scene I first encountered Danilo Pasquariello's amazing tutorial playlist on youtube: 
 https://www.youtube.com/watch?v=ktjMCanKNLk&list=PL8MkBHej75fJD-HveDzm4xKrciC5VfYuV
