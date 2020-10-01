@@ -154,6 +154,7 @@ Pillows were the last image I had added to the room.
 
 I then added teleporation movement using inspiration from this glitch project: 
 https://glitch.com/edit/#!/puzzled-pretty-dollar?path=index.html%3A8%3A2
+. Studies show that including a teleportaion feature helps to reduce motion sickness when compared to standard locomotion in VR. That is why I chose to include it.
 
 Videos which depict my project: 
 
