@@ -152,6 +152,9 @@ to the floor.
 The calendar was a much easier feat to accomplish since I had already created a seperate image for the cleaned calendar. 
 Pillows were the last image I had added to the room. 
 
+I then added teleporation movement using inspiration from this glitch project: 
+https://glitch.com/edit/#!/puzzled-pretty-dollar?path=index.html%3A8%3A2
+
 Videos which depict my project: 
 
 https://www.youtube.com/watch?v=NMsRm1Ap2lY
