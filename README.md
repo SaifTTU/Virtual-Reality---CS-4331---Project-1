@@ -3,65 +3,6 @@
 https://lavender-tame-tote.glitch.me/
 
 
-Links to the Images I used: 
-
-1. lightwood: https://www.homedepot.com/p/Orchard-Light-Grey-Wood-Panel-Vinyl-Peelable-Roll-Covers-56-sq-ft-414-56909/204206734
-
-2. blankets (title: bedsheets): https://www.freepik.com/free-photo/colorful-bed-sheet-texture_6345746.htm
-
-3. computer screen: https://www.google.com/search?q=victory+league+screen&tbm=isch&sxsrf=ALeKk00ou5galRiMlSRYL36ZiTxX3BNBNw:1601421078318&source=lnms&sa=X&ved=0ahUKEwj104i0vo_sAhUIcq0KHbO_CJ8Q_AUI6wQoAQ&biw=1077&bih=787#imgrc=GU7VCwGwygUG8M
-
-4. pool: https://lh3.googleusercontent.com/proxy/nJK32ogmuf2ptRVA3uDnU6yy8cTz7DEW94zVR_Olv3j84yY6uGKrkPP9AtKXsBC_WC7REfq8Gi0l9v-VGyuTVIKlqxHxfEgs_Bjq91zpPW48jRMr615MPWVaDGcJ5EL3hP0e5Ppb7lrz5RQug0wAcXsyYwrE
-
-5. soil: https://www.pinterest.com/pin/572027590170631712/?nic_v2=1a3VNccUC
-
-6. rug: https://www.fostersfurniture.com/area-rug-texture-confetti-ch20800-midnight-colorway
-
-7. bricks: https://www.123rf.com/photo_87160211_seamless-brick-wall-texture.html
-
-8. clock: https://www.deviantart.com/agf81/art/Clock-Face-2-169291889
-
-9. hologram: (I cropped out part of this image to create the hologram) https://www.pinterest.com/pin/58828338865930590/?nic_v2=1a3VNccUC
-
-10. leia: https://www.pngguru.com/free-transparent-background-png-clipart-raeay
-
-11. Social Distancing Sign: https://www.seton.com/be-mindful-of-social-distancing-sign-bk0322.html?utm_campaign=PC-01-Safety%26FacilitySigns_SocialDistancingSignsCOVID19_Seton_PLA_NB_C_Google_US&utm_source=google&utm_medium=cpc&utm_term=&matchtype=&device=c&adgroupid=Social+Distancing+Signs&keycode=WS0282&gclid=CjwKCAjw2dD7BRASEiwAWCtCbzAEAsZEkHSlcJk9CP-ITifV4AUxf9F_8nJOhtaIQXkmn6pzjVeVXRoC_5kQAvD_BwE&gclsrc=aw.ds
-
-12. Mask Required Sign: https://mn.gov/covid19/media/share-message/for-businesses/index.jsp
-
-13. Wear A Mask Sign: https://stratospheredesigns.com/posts/free-printable-face-mask-safety-signs-in-8-colors/
-
-14. Floor decal: https://www.seton.com/floor-safety-signs-stay-6-feet-apart-blue-me1116.html?utm_campaign=PC-01-FacilitySigns_CatchAllTest_Seton_PLA_NB_C_Google_US&utm_source=google&utm_medium=cpc&utm_term=&matchtype=&device=c&adgroupid=Catchall&keycode=WS0282&gclid=CjwKCAjw2dD7BRASEiwAWCtCbyURPD_FgdS3WnEwKANRPsEKRie0Hvt75oonBf8JmtwgwR2NfNWpWRoCHbQQAvD_BwE&gclsrc=aw.ds
-
-Links to the Models I used: 
-
-1. cactus: https://sketchfab.com/3d-models/fishhook-barrel-cactus-plantpointschallenge-1f088de099d24cea9d8bba2a3d067403
-
-2. books: https://sketchfab.com/3d-models/11-books-householdpropschallenge-ea227e0235a54af48ae11142402b4323
-
-3. nintendo switch: https://sketchfab.com/3d-models/nintendo-switch-75c5052910ea46feaad64509d96556fe
-
-4. ps5: https://sketchfab.com/3d-models/ps5-d788de3735964151a3e24fd59c0f1956
-
-5. ps5 controllers: https://sketchfab.com/3d-models/ps5-controller-f75caead1dc1474195eb32a7f4c71117
-
-6. bb8: https://sketchfab.com/3d-models/bb8-5b78c3ca7dbc4f64b5784bb1fb54b540
-
-7. storm trooper helmet: https://sketchfab.com/3d-models/storm-trooper-helmet-1e49d4dd73c746d4b131c58dfe471bd7
-
-8. link: https://sketchfab.com/3d-models/link-from-legend-of-zelda-dcb4cf57af564a00b702f995a9a69f1
-
-9. desktop pc: https://sketchfab.com/search?q=computer+desktop&sort_by=-relevance&type=models
-
-10. mouse: https://sketchfab.com/search?q=mouse+computer&sort_by=-relevance&type=models
-
-11. pillows(printed two of them): https://sketchfab.com/3d-models/pillow-fb3ff27a30bb4243b8006bc997f4d8a4
-
-12. door: https://sketchfab.com/3d-models/lowpoly-door-809e9d0da4f34b819de5668252ead5f0
-
-13. hand sanitizer: https://sketchfab.com/3d-models/sanitizer-bottle-ec67d7141333464ca1061320452f06a2
-
-
 In the process of making this scene I first encountered Danilo Pasquariello's amazing tutorial playlist on youtube: 
 https://www.youtube.com/watch?v=ktjMCanKNLk&list=PL8MkBHej75fJD-HveDzm4xKrciC5VfYuV
 
@@ -199,3 +140,64 @@ List of the Models I created:
 17. Calendars 1 and 2. (I drew them, using paint)
 
 18. Webs (I drew this image in photoshop)
+
+Links to the Images I used: 
+
+1. lightwood: https://www.homedepot.com/p/Orchard-Light-Grey-Wood-Panel-Vinyl-Peelable-Roll-Covers-56-sq-ft-414-56909/204206734
+
+2. blankets (title: bedsheets): https://www.freepik.com/free-photo/colorful-bed-sheet-texture_6345746.htm
+
+3. computer screen: https://www.google.com/search?q=victory+league+screen&tbm=isch&sxsrf=ALeKk00ou5galRiMlSRYL36ZiTxX3BNBNw:1601421078318&source=lnms&sa=X&ved=0ahUKEwj104i0vo_sAhUIcq0KHbO_CJ8Q_AUI6wQoAQ&biw=1077&bih=787#imgrc=GU7VCwGwygUG8M
+
+4. pool: https://lh3.googleusercontent.com/proxy/nJK32ogmuf2ptRVA3uDnU6yy8cTz7DEW94zVR_Olv3j84yY6uGKrkPP9AtKXsBC_WC7REfq8Gi0l9v-VGyuTVIKlqxHxfEgs_Bjq91zpPW48jRMr615MPWVaDGcJ5EL3hP0e5Ppb7lrz5RQug0wAcXsyYwrE
+
+5. soil: https://www.pinterest.com/pin/572027590170631712/?nic_v2=1a3VNccUC
+
+6. rug: https://www.fostersfurniture.com/area-rug-texture-confetti-ch20800-midnight-colorway
+
+7. bricks: https://www.123rf.com/photo_87160211_seamless-brick-wall-texture.html
+
+8. clock: https://www.deviantart.com/agf81/art/Clock-Face-2-169291889
+
+9. hologram: (I cropped out part of this image to create the hologram) https://www.pinterest.com/pin/58828338865930590/?nic_v2=1a3VNccUC
+
+10. leia: https://www.pngguru.com/free-transparent-background-png-clipart-raeay
+
+11. Social Distancing Sign: https://www.seton.com/be-mindful-of-social-distancing-sign-bk0322.html?utm_campaign=PC-01-Safety%26FacilitySigns_SocialDistancingSignsCOVID19_Seton_PLA_NB_C_Google_US&utm_source=google&utm_medium=cpc&utm_term=&matchtype=&device=c&adgroupid=Social+Distancing+Signs&keycode=WS0282&gclid=CjwKCAjw2dD7BRASEiwAWCtCbzAEAsZEkHSlcJk9CP-ITifV4AUxf9F_8nJOhtaIQXkmn6pzjVeVXRoC_5kQAvD_BwE&gclsrc=aw.ds
+
+12. Mask Required Sign: https://mn.gov/covid19/media/share-message/for-businesses/index.jsp
+
+13. Wear A Mask Sign: https://stratospheredesigns.com/posts/free-printable-face-mask-safety-signs-in-8-colors/
+
+14. Floor decal: https://www.seton.com/floor-safety-signs-stay-6-feet-apart-blue-me1116.html?utm_campaign=PC-01-FacilitySigns_CatchAllTest_Seton_PLA_NB_C_Google_US&utm_source=google&utm_medium=cpc&utm_term=&matchtype=&device=c&adgroupid=Catchall&keycode=WS0282&gclid=CjwKCAjw2dD7BRASEiwAWCtCbyURPD_FgdS3WnEwKANRPsEKRie0Hvt75oonBf8JmtwgwR2NfNWpWRoCHbQQAvD_BwE&gclsrc=aw.ds
+
+15. 3 Fask Mask Images: https://www.rawpixel.com/search/face?sort=curated&type=png&page=1
+
+Links to the Models I used: 
+
+1. cactus: https://sketchfab.com/3d-models/fishhook-barrel-cactus-plantpointschallenge-1f088de099d24cea9d8bba2a3d067403
+
+2. books: https://sketchfab.com/3d-models/11-books-householdpropschallenge-ea227e0235a54af48ae11142402b4323
+
+3. nintendo switch: https://sketchfab.com/3d-models/nintendo-switch-75c5052910ea46feaad64509d96556fe
+
+4. ps5: https://sketchfab.com/3d-models/ps5-d788de3735964151a3e24fd59c0f1956
+
+5. ps5 controllers: https://sketchfab.com/3d-models/ps5-controller-f75caead1dc1474195eb32a7f4c71117
+
+6. bb8: https://sketchfab.com/3d-models/bb8-5b78c3ca7dbc4f64b5784bb1fb54b540
+
+7. storm trooper helmet: https://sketchfab.com/3d-models/storm-trooper-helmet-1e49d4dd73c746d4b131c58dfe471bd7
+
+8. link: https://sketchfab.com/3d-models/link-from-legend-of-zelda-dcb4cf57af564a00b702f995a9a69f1
+
+9. desktop pc: https://sketchfab.com/search?q=computer+desktop&sort_by=-relevance&type=models
+
+10. mouse: https://sketchfab.com/search?q=mouse+computer&sort_by=-relevance&type=models
+
+11. pillows(printed two of them): https://sketchfab.com/3d-models/pillow-fb3ff27a30bb4243b8006bc997f4d8a4
+
+12. door: https://sketchfab.com/3d-models/lowpoly-door-809e9d0da4f34b819de5668252ead5f0
+
+13. hand sanitizer: https://sketchfab.com/3d-models/sanitizer-bottle-ec67d7141333464ca1061320452f06a2
+
