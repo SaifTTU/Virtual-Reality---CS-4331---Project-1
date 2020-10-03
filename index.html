@@ -5,6 +5,49 @@
     <title>Saif's WebVR! • A-Frame</title>
     <meta name="description" content="Saif's WebVR! • A-Frame">
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://rawgit.com/fernandojsg/aframe-teleport-controls/master/dist/aframe-teleport-controls.min.js"></script>  
+  <script src="https://rawgit.com/feiss/aframe-environment-component/master/dist/aframe-environment-component.min.js"></script>
+    <script> 
+      AFRAME.registerComponent('touch-listener', {
+      init: function () {
+      var targetEl = this.el;
+
+    //Create the touchstart event
+    document.querySelector('a-scene').addEventListener('touchstart', function () {
+      targetEl.emit('starttouch')
+    })
+
+    document.querySelector('a-scene').addEventListener('mousedown', function () {
+      targetEl.emit('starttouch')
+    })
+
+    document.body.addEventListener('keydown', function (e) {
+      if (e.keyCode == 32) {
+        console.log('space key pressed!');
+        targetEl.emit('starttouch');      
+      }  
+    })
+    
+    //Create the touchend event
+    document.querySelector('a-scene').addEventListener('touchend', function () {
+      targetEl.emit('endtouch')
+    })
+    
+    document.querySelector('a-scene').addEventListener('mouseup', function () {
+      targetEl.emit('endtouch')
+    })
+    
+    document.body.addEventListener('keyup', function (e) {
+      if (e.keyCode == 32) {
+        console.log('space key released!');
+        targetEl.emit('endtouch');      
+      }  
+    })
+
+    
+  }
+});
+    </script>
   </head>
   <body>
     <a-scene background="color: #D7ECF4">
@@ -13,7 +56,6 @@
         <img id="bed" src ="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/bedsheets.jpg">
         <img id="league" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/league2.jpg">
         <img id="pool" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/pool.jpg">
-        <img id="bushes" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/bushes.jpg">
         <img id="soil" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/soil.jpg">
         <img id="rug" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/rug.jpeg">
         <img id="calendar" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/calendar.jpg">
@@ -22,38 +64,34 @@
         <img id="clock"  src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/clock2.png">     
         <img id="hologram" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/hologram.png">     
         <img id="web" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/webs.png">     
+        <img id="leia"  src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/leia.png">   
+        <img id="floorDecal"  src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/social%20distancing%20floor%20decal.jpg">   
+        <img id="wearMask"  src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/wearaMask.jpg">   
+        <img id="socialDistancing"  src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/socialDistancing.jpg">   
+        <img id="maskRequired" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/maskRequired.jpg">   
+        <img id="mask1" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/mask1.png">   
+        <img id="mask2" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/mask2.png">   
+        <img id="mask3" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/mask3.png">   
         
         
         <a-gltf-model id="book" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/book.glb"></a-gltf-model>
-        
         <a-gltf-model id="book2" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/book2.glb"></a-gltf-model>
         <a-gltf-model id="books" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/books.glb"></a-gltf-model>
-        
         <a-gltf-model id="switch" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/switch.glb"></a-gltf-model>
-        <a-gltf-model id="ps4" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/ps4.glb"></a-gltf-model>
         <a-gltf-model id="ps5" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/ps5.glb"></a-gltf-model>
         <a-gltf-model id="ps5controller" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/ps5controller.glb"></a-gltf-model>
-        
         <a-gltf-model id="stormtrooper" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/stormtrooper.glb"></a-gltf-model>
         <a-gltf-model id="tv" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/tv.glb"></a-gltf-model>
-        
         <a-gltf-model id="cactus" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/cactus.glb.glb"></a-gltf-model>
-        
-        <a-gltf-model id="fireplace" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/fireplace.glb"></a-gltf-model>
         <a-gltf-model id="door" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/door.glb"></a-gltf-model>
         <a-gltf-model id="link" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/link.glb"></a-gltf-model>
         <a-gltf-model id="bb8" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/bb8.glb"></a-gltf-model>
-        
         <a-gltf-model id="pc" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/pc.glb"></a-gltf-model>
         <a-gltf-model id="mouse" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/mouse.glb"></a-gltf-model>
         <a-gltf-model id="pillow" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/pillow.glb"></a-gltf-model>
+        <a-gltf-model id="sanitizer" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/sanitizer.glb"></a-gltf-model>
+        <!--<a-gltf-model id="facemask" src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/face_mask.glb"></a-gltf-model>-->
         
-        <!--transparent images: lei-->
-        <img id="leia"  src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/leia.png">   
-        <!--webs-->
-        
-        <audio id="water" src"https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/pool.mp3"> </audio>
-        <audio id="fire" src"https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/fireplace.mp3"> </audio>
         
       </a-assets>
       
@@ -94,19 +132,47 @@
       
       <!--Camera Rig: What the player looks through. -->
       <!--Also contains right and left hand for when you use motion controls positioned where the camera is-->
-      
-      <a-entity id="rig" position="-.4 1.35 -3.75" rotation="0 180 0">
-          <a-entity id="camera" camera look-controls wasd-controls>
-            <a-entity cursor="fuse: true; fuseTimeout: 500; interval:1000; objects: .collidable"
+      <!--
+      <a-entity id="rig" position="0 1.36 0" rotation="0 -90 0">
+          <a-entity id="camera" camera look-controls wasd-controls="acceleration:50">
+            <a-entity cursor raycaster="objects: .collidable; near:0;far:20;interval:200"
             position="0 0 -1"
-            geometry="primitive: ring; radiusInner: 0.02; radiusOuter: 0.03"
+            rotation="-10 0 0"
+            geometry="primitive: ring; radiusInner: 0.01; radiusOuter: 0.02"
             material="color: black; shader: flat"
-            
-            >
-  </a-entity>
+            acceleration="0"
+            ></a-entity>
           </a-entity>
           
       </a-entity>
+      
+      -->
+      
+      <a-entity id="cameraRig" position="0 1.6 0" >
+      <a-entity id="head" position="0 0 0" camera="userHeight:1.6" look-controls="pointerLockEnabled:true">
+        <a-entity position="0.1 -0.1 0"
+          touch-listener
+          teleport-controls=
+            "cameraRig: #cameraRig;
+             teleportOrigin: #head;
+             startEvents:starttouch;
+             endEvents:endtouch;
+             curveShootingSpeed:15;
+             hitCylinderRadius:1;
+             collisionEntities: [ground]"
+          >
+        </a-entity>
+        <a-entity cursor raycaster="objects: .collidable; near:0;far:25;interval:200"
+            position="0 0 -1"
+            rotation="-10 0 0"
+            geometry="primitive: ring; radiusInner: 0.01; radiusOuter: 0.02"
+            material="color: black; shader: flat"
+            acceleration="0"
+            ></a-entity>
+      </a-entity>
+    </a-entity>    
+      
+      
       
       
       
@@ -182,13 +248,26 @@
       <a-gltf-model position="4.7 .8 -1.21" scale=".5 .6 .35"  rotation="-75 180 0"src="#book"></a-gltf-model>
       <a-gltf-model position="4.3 .8 -1.1" scale=".5 .6 .35"  rotation="60 0 0"src="#book"></a-gltf-model>
       
+      <!--toilet paper on shelf-->
+      <a-cylinder position="4.5 .75 -.9" color="#8D8D8D" radius=".021" height=".2002"></a-cylinder> 
+         <a-cylinder position="4.5 .75 -.9" color="#D8D8D8" radius=".1" height=".2"></a-cylinder>
+      <a-cylinder position="4.4 .75 -.7" color="#8D8D8D" radius=".021" height=".2002"></a-cylinder> 
+         <a-cylinder position="4.4 .75 -.7" color="#D8D8D8" radius=".1" height=".2"></a-cylinder>
+      <a-cylinder position="4.6 .75 -.7" color="#8D8D8D" radius=".021" height=".2002"></a-cylinder> 
+         <a-cylinder position="4.6 .75 -.7" color="#D8D8D8" radius=".1" height=".2"></a-cylinder>
+      <a-cylinder position="4.5 1.25 -.9" color="#8D8D8D" radius=".021" height=".2002"></a-cylinder> 
+         <a-cylinder position="4.5 1.25 -.9" color="#D8D8D8" radius=".1" height=".2"></a-cylinder>
+      <a-cylinder position="4.6 1.25 -.7" color="#8D8D8D" radius=".021" height=".2002"></a-cylinder> 
+         <a-cylinder position="4.6 1.25 -.7" color="#D8D8D8" radius=".1" height=".2"></a-cylinder>
+      <a-cylinder position="4.5 1.25 -.5" color="#8D8D8D" radius=".021" height=".2002"></a-cylinder> 
+         <a-cylinder position="4.5 1.25 -.5" color="#D8D8D8" radius=".1" height=".2"></a-cylinder>
       
       <!--grass-->
       <a-box color="#299D21" width="25" height="0.04" depth="30" position = "0 -.1 0" scale="1 1 1"></a-box>
 			
       <!--ground -->
-      <a-box src="#lightwood" repeat ="7 10" width="10" height=".005" depth="10" position = "0 0 0" scale="1 1 1" material="shader: flat"></a-box>
-
+      <a-box ground src="#lightwood" repeat ="7 10" width="10" height=".005" depth="10" position = "0 0 0" scale="1 1 1" material="shader: flat"></a-box>
+      
 			
 			<!--South wall-->
 			<a-box src="#lightwood" repeat ="5 5" width="10" height="9" depth=".1" position = "0 0 5" material="shader: flat"></a-box>
@@ -227,11 +306,6 @@
 			
 			<!--pool-->
 			<a-box src="#pool" color="#32FDFF" width="10" height=".05" depth="5" position = "0 0 -9.5" rotation="0 0 0"
-             
-               sound="src: #fire;
-                    autoplay: true;
-                    refDistance: 1;
-                    rolloffFactor: 4"
              ></a-box>
 
 			<!-- chair and legs -->
@@ -239,7 +313,7 @@
 			<a-box color="#A56D15" width=".1" height="1.3" depth=".1" position = "0 0 .4"></a-box>
 			<a-box color="#A56D15" width=".1" height="1.3" depth=".1" position = ".5 0 0"></a-box>
 			<a-box color="#A56D15" width=".1" height="1.3" depth=".1" position = ".5 0 .4"></a-box>
-			<a-box color="#A56D15" width=".6" height=".05" depth=".5" position = ".25 .67 .2"></a-box>
+			<a-box ground color="#A56D15" width=".6" height=".05" depth=".5" position = ".25 .67 .2"></a-box>
 			<a-box color="#A56D15" width=".6" height=".05" depth=".5" position = "-.023 .99 .2" rotation = "0 0 90"></a-box>
 
 
@@ -289,7 +363,7 @@
 			<!--backboard-->
 			<a-box color="#A56D15" width="1.8" height="1" depth=".1" position = "-4.1 0.55 1.5"></a-box>
 			<!--mattress-->
-			<a-box color="#D3D3D3" width="1.6" height=".3" depth="3.1" position = "-4.1 1.1 3.2"></a-box>
+			<a-box ground color="#D3D3D3" width="1.6" height=".3" depth="3.1" position = "-4.1 1.1 3.2"></a-box>
 			<!--blanket -->
 			<a-box src="#bed" repeat=".8 1" color="#95A5FF" width="1.61" height=".3" depth="2.5" position = "-4.1 1.101 2.8"></a-box>
       
@@ -339,9 +413,9 @@
       
       <!--Calendar that says Covid 19-->
       <a-plane class="collidable" src="#calendar" width="3" height="2.2" rotation="0 -180 0" position="0 1.8 4.93" material="shader:flat"
-               animation__mouseleave="property: material.opacity; startEvents: click; to: 0; dur:500; loop: false; easing: linear; delay: 0"
+               animation__mouseenter="property: material.opacity; startEvents: mouseenter; to: 0; dur:2500; loop: false; easing: linear; delay: 0"
                ></a-plane>
-      <a-plane src="#calendar2" width="3" height="2.2" rotation="0 -180 0" position="0 1.8 4.94" material="shader:flat"
+      <a-plane src="#calendar2" width="3" height="2.2" rotation="0 -180 0" position="0 1.8 4.94" material="shader:flat" color="grey"
                ></a-plane>
       <!--color="#CFCFCF"-->
       
@@ -382,9 +456,9 @@
           <a-box color="#000000" material="transparent: true; opacity: .1" width="1.95"  height="1.6" depth=".01" position="0 1.7 -.95"></a-box>
           
             <!--second glass. you can open and close it-->
-                <a-box class="collidable" position="-.97 1.7 0" material="transparent: true; opacity: 0.1" width=".1"  height="1.6" depth=".975" 
+                <a-box class="collidable" position="-.97 1.7 0" material="transparent: true; opacity: 0.1" width=".01"  height="1.4" depth=".975" 
                        animation__mouseenter="property: position; startEvents: mouseenter; to: -.97 1.7 -.47; dur:1000; loop: false; easing: linear; delay: 100"
-                       animation__mouseleave="property: position; startEvents: click; to: -.97 1.7 0; dur:1000; loop: false; easing: linear; delay: 0"
+                       animation__mouseleave="property: position; startEvents: leave; to: -.97 1.7 0; dur:1000; loop: false; easing: linear; delay: 0"
                        >
                     
                     <!--chimney glass door handle-->
@@ -400,40 +474,104 @@
           <!--fire 1-->
           <a-box color="yellow" width= ".3" height=".2" depth=".3" position="-.05 .96 0" rotation = "0 0 0"  
                animation="property: position; to: -0.05 1.5 0; dur:500; loop: true; easing: linear; delay: 0"
-               
+               material="shader:flat"
                ></a-box>
           <!--fire 2-->
           <a-box color="yellow" width= ".3" height=".2" depth=".3" position="0 1 .35" rotation = "0 0 0"  
                animation="property: position; to: 0 1.5 .35; dur:800; loop: true; easing: linear; delay: 1200"       
+               material="shader:flat"
                ></a-box>
           <!--fire 3-->
           <a-box color="yellow" width= ".3" height=".2" depth=".3" position="0 1 -.35" rotation = "0 0 0"  
                animation="property: position; to: 0 1.5 -.35; dur:800; loop: true; easing: linear; delay: 1000"
+               material="shader:flat"
                ></a-box>
           <!--fire 4-->
           <a-box color="yellow" width= ".3" height=".2" depth=".3" position="-.05 .96 0" rotation = "0 0 0"  
                animation="property: position; to: -0.05 1.7 0; dur:700; loop: true; easing: linear; delay: 1000"   
+               material="shader:flat"
                ></a-box>
           <!--fire 5-->
           <a-box color="yellow" width= ".3" height=".2" depth=".3" position="0 1 .35" rotation = "0 0 0"  
                animation="property: position; to: 0 1.7 .35; dur:900; loop: true; easing: linear; delay: 2200"  
+               material="shader:flat"
                ></a-box>
           <!--fire 6-->
           <a-box color="yellow" width= ".3" height=".2" depth=".3" position="0 1 -.35" rotation = "0 0 0"  
                animation="property: position; to: 0 1.6 -.35; dur:600; loop: true; easing: linear; delay: 2000"           
+               material="shader:flat"
                ></a-box>
       </a-box>
       
       <!--roof-->
-      <a-box src="#lightwood" repeat ="7 10" width="10" height=".005" depth="10" position = "0 4.5 0" scale="1 1 1" rotation="0 90 0" color="#ECAE4E" material="shader:flat"></a-box>
+      <a-box ground src="#lightwood" repeat ="7 10" width="10" height=".005" depth="10" position = "0 4.5 0" scale="1 1 1" rotation="0 90 0" color="#ECAE4E" material="shader:flat"></a-box>
   
       <!--transparent images-->
       <!--leia-->
-      <a-image src="#leia" position="-2.75 1.25 -3.4" width="2.3" height="2.3" color="#abffff" rotation="0 90 0" material="transparent: true; opacity: .4"></a-image>
-      <!--holographic projection-->
+      <a-image class="collidable" src="#leia" position="-2.75 1.25 -3.4" width="2.3" height="2.3" color="#abffff" rotation="0 90 0" material="transparent: true; opacity: .4"
+               animation__mouseenter="property: position; startEvents: mouseenter; to: -2.75 -10 -3.4; dur:5000; loop: false; easing: linear; delay:0"
+               >
+            <!--hologram-->
+          <a-image src="#hologram" color="#28ebeb" rotation="20 90 15" position=".5 -1.5 4" scale="7 1.5 1" material="transparent: true; opacity: .25"></a-image> 
+          
+      </a-image>
       
-      <!--hologram-->
-      <a-plane src="#hologram" color="#28ebeb" rotation="-180 0 17" position="0.95 -.1 -3.9" scale="-7.15 2 -1" material="transparent: true; opacity: .25"></a-plane> 
+      <a-image src="#wearMask" position="-2.3 3 4.9" width="1" height="1" rotation="0 180 0">
+      </a-image>
+      <a-image src="#wearMask" position="-5.2 2 1" width="1" height="1" rotation="0 -90 0">
+      </a-image>
+      <a-image src="#wearMask" position="-4.9 2 -2" width="1" height="1" rotation="0 90 0">
+      </a-image>
+      <a-cylinder src="#floorDecal" position="-4.2 .1 -.75" radius=".5" height=".01" rotation="0 0 0">
+      </a-cylinder>
+      <a-cylinder src="#floorDecal" position="-1.2 .1 -.75" radius=".5" height=".01" rotation="0 45 0">
+      </a-cylinder>
+      <a-cylinder src="#floorDecal" position=".7 .1 -3.15" radius=".5" height=".01" rotation="0 20 0">
+      </a-cylinder>
+      <a-cylinder src="#floorDecal" position="3.3 .1 -.75" radius=".5" height=".01" rotation="0 -90 0">
+      </a-cylinder>
+      <a-cylinder src="#floorDecal" position="1.7 .1 3.75" radius=".5" height=".01" rotation="0 0 0">
+      </a-cylinder>
+      <a-cylinder src="#floorDecal" position="-2.2 .1 3.75" radius=".5" height=".01" rotation="0 180 0">
+      </a-cylinder>
+      <a-image src="#socialDistancing" position="2.25 1.65 4.9" width="1" height="1" rotation="0 -180 0">
+      </a-image>
+      <a-image src="#socialDistancing" position="-2.3 1.65 4.9" width="1" height="1" rotation="0 -180 0">
+      </a-image>
+      <a-image src="#socialDistancing" position="4.9 2.3 2.25" width="1" height="1" rotation="0 -90 0">
+      </a-image>
+      
+      <a-image src="#socialDistancing" position="-4.9 2 .55" width="1" height="1" rotation="0 90 0">
+      
+      </a-image>
+      
+      <a-image class="collidable" src="#mask1" position="0 .1 3" scale=".8 .5"width="1" height="1" rotation="-90 20 0"
+               animation__mouseenter="property: position; startEvents: mouseenter; to: 0 -1 3; dur:5000; loop: false; easing: linear; delay: 0"
+               animation__mouseenter2="property: material.opacity; startEvents: mouseenter; to: 0; dur:500; loop: false; easing: linear; delay: 0"
+               >
+      </a-image>
+      <a-image class="collidable" src="#mask2" position="0 .1 3.8" scale="1 .5"width="1" height="1" rotation="-90 -45 0"
+               animation__mouseenter="property: position; startEvents: mouseenter; to: 0 -1 3.8; dur:5000; loop: false; easing: linear; delay:0"
+               animation__mouseenter2="property: material.opacity; startEvents: mouseenter; to: 0; dur:500; loop: false; easing: linear; delay: 0"
+               
+               >
+      </a-image>
+      <a-image class="collidable" src="#mask3" position="-1 .1 3.35" scale="1 .6"width="1" height="1" rotation="-90 -45 0"
+               animation__mouseenter="property: position; startEvents: mouseenter; to: -1 -1 3.35; dur:5000; loop: false; easing: linear; delay: 0"
+               animation__mouseenter2="property: material.opacity; startEvents: mouseenter; to: 0; dur:500; loop: false; easing: linear; delay: 0"
+               
+               >
+      </a-image>
+      
+      <!--
+      <img id="floorDecal"  src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/social%20distancing%20floor%20decal.jpg">   
+        <img id="wearMask"  src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/wearaMask.jpg">   
+        <img id="socialDistancing"  src="https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/socialDistancing.jpg">   
+        <img id="maskRequired"
+
+
+      -->
+      
       <!--web corners--> 
       <!--web on door, on walls
       <a-image color="red" src="#web" rotation="0 80 0" position="-4.65 1.5 0" scale="2 1.5 1" material="transparent: true; opacity: .5"></a-image> 
@@ -460,20 +598,36 @@
       
       <a-image class="collidable" src="#web" rotation="0 90 0" position="4.25 2.1 -.95" scale="-1 1 1" material="transparent: true"
                animation__mouseenter="property: material.opacity; startEvents: mouseenter; to: 0; dur:500; loop: false; easing: linear; delay: 0"
+               animation__mouseenter2="property: position; startEvents: mouseenter; to: 4.25 -10 -.95; dur:5000; loop: false; easing: linear; delay: 0"
+               
                ></a-image>
+      <a-image class="collidable" src="#web" rotation="0 90 90" position="4.25 1.05 -.95" scale="-1 1 1" material="transparent: true"
+               animation__mouseenter="property: material.opacity; startEvents: mouseenter; to: 0; dur:500; loop: false; easing: linear; delay: 0"
+               animation__mouseenter2="property: position; startEvents: mouseenter; to: 4.25 -10 -.95; dur:5000; loop: false; easing: linear; delay: 0"
+               
+               ></a-image>
+      
       
       <!--spiderman web on door-->
       <a-image class="collidable" color="red" src="#web" rotation="0 80 0" position="-4.65 1.5 0" scale="2 1.5 1" material="transparent: true; opacity: .5"
                animation__mouseenter="property: material.opacity; startEvents: mouseenter; to: 0; dur:500; loop: false; easing: linear; delay: 0"
+               animation__mouseenter2="property: position; startEvents: mouseenter; to: -4.65 -10 0; dur:5000; loop: false; easing: linear; delay: 0"
+               
                ></a-image> 
       <a-image class="collidable" color="red" src="#web" rotation="0 80 0" position="-4.65 3 0" scale="2 -1.5 1" material="transparent: true; opacity: .5"
                animation__mouseenter="property: material.opacity; startEvents: mouseenter; to: 0; dur:500; loop: false; easing: linear; delay: 0"
+               animation__mouseenter2="property: position; startEvents: mouseenter; to: -4.65 -10 0; dur:5000; loop: false; easing: linear; delay: 0"
+               
                ></a-image> 
       <a-image class="collidable" color="red" src="#web" rotation="0 90 0" position="-4.851 1.5 1.9" scale="-2 1.5 1" material="transparent: true; opacity: .5"
-               animation__mouseenter="property: material.opacity; startEvents: mouseenter; to: 0; dur:500; loop: false; easing: linear; delay: 0"
+               animation__mouseenter="property: material.opacity; startEvents: mouseenter; to: 0; dur:500; loop: false; easing: linear; delay: 400"
+               animation__mouseenter2="property: position; startEvents: mouseenter; to: -4.851 -10 1.9; dur:5000; loop: false; easing: linear; delay: 400"
+               
                ></a-image> 
       <a-image class="collidable" color="red" src="#web" rotation="0 90 0" position="-4.851 3 1.9" scale="-2 -1.5 1" material="transparent: true; opacity: .5"
-               animation__mouseenter="property: material.opacity; startEvents: mouseenter; to: 0; dur:500; loop: false; easing: linear; delay: 0"
+               animation__mouseenter="property: material.opacity; startEvents: mouseenter; to: 0; dur:500; loop: false; easing: linear; delay: 400"
+               animation__mouseenter2="property: position; startEvents: mouseenter; to: -4.851 -10 1.9; dur:5000; loop: false; easing: linear; delay: 400"
+               
                ></a-image> 
       
       
@@ -484,7 +638,9 @@
       <a-entity id="lightSphere" geometry="primitive: sphere; radius: .2" material="shader:flat" position="1 2.93 0"></a-entity>
       
      <!--toilet paper stack-->
-     <a-entity position="1.9 .12 -1.9" scale="1.4 1.4 1.4">
+     <a-cylinder class="collidable" radius=".3" height=".5" position="1.9 .12 -1.9" scale="1.4 1.4 1.4" material="transparent: true; opacity: 0"
+               animation__mouseenter="property: position; startEvents: mouseenter; to: 1.9 -10 -1.9; dur:20000; loop: false; easing: linear; delay:0" 
+               >
          <!--toilet paper and roll-->
          
          
@@ -530,15 +686,36 @@
          <a-cylinder position="-.2 0 -.2" color="#D8D8D8" radius=".1" height=".2"></a-cylinder> 
          
        
-     </a-entity> 
+     </a-cylinder> 
      
      <!--A Text Prompt that Asks the Player to Click on the Chimney Glass-->
      <a-text rotation="0 -90 0" value="Try interacting with" position="3 2.75 3" color="#FFF"></a-text>  
      <a-text rotation="0 -90 0" value="the chimney" position="3 2.45 3.1" color="#FFF"></a-text>  
      <!--A Text Prompt that Asks the Player to Click on the Calendar-->
-     <a-text rotation="0 -180 0" value="Try clicking on the calendar" position="1.38 3.3 4.9" color="#FFF"></a-text>
+     <a-text rotation="0 -180 0" value="Look at messy calendar to remove COVID!" position="2.38 3.25 4.9" color="#FFF"></a-text>
      <!--A Text Prompt that Asks the User to look at the webs-->
-     <a-text rotation="0 -90 0"  scalr=".8" value="Look at the webs" position="4.3 2.75 -1.45" color="#FFF"></a-text>  
+     <a-text rotation="0 -90 0"  scalr=".8" value="Interact with the webs" position="4.3 2.75 -1.45" color="#FFF"></a-text>  
+     <!--A Text Prompt for the secret area-->
+     <a-text rotation="-90 -180 0" scalr="2" value="SECRETE AREA!!!" position=".8 4.7 1" color="#FFF"></a-text>
+     
+      <!--hand santizier-->
+     <a-gltf-model position=".75 .95 -.21" scale=".013 .013 .013"  rotation="0 -45 0" src="#sanitizer"></a-gltf-model>
+      <!--mask
+     <a-gltf-model position="-4.1 1.1 1.5" scale=".0005 .0005 .0005"  rotation="-90 90 0" src="#facemask"></a-gltf-model>
+     -->
+      
+      <!--some more signs-->
+     <a-cylinder ground src="#floorDecal" position="-6 .1 -.75" radius=".5" height=".01" rotation="0 0 0">
+      </a-cylinder>
+     <a-cylinder ground src="#floorDecal" position="-7.5 .1 -.75" radius=".5" height=".01" rotation="0 0 0">
+      </a-cylinder>  
+      
+     
+      <a-cylinder ground src="#floorDecal" position="0 .1 -6" radius=".5" height=".01" rotation="0 90 0">
+      </a-cylinder>
+      
+      <a-cylinder ground src="#floorDecal" position="7 .1 7" radius=".5" height=".01" rotation="0 90 0">
+      </a-cylinder>
       
       
     </a-scene>
