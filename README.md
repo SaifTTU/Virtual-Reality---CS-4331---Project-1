@@ -35,7 +35,7 @@ This is when I got the idea to use a pool. All I had to do was make another box 
 The lighting for this project came much later. There is a couple of red lights to represent the fire, the sun, the blue pool against the house, theres a few faint
 lights for the tv and some corrective lights implemented because the blue of the pool was shinning through the window.
 
-![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show4.png "show4.png")
+![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show5.png "show4.png")
 
 I made glass boxes by setting the opacity of the material to .1 for the windows.
 
@@ -71,7 +71,7 @@ suddenly getting cancelled. Once I found out how to animate opacity and such, I 
 directly behind the other to create this illusion. 
 
 
-![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show5.png)
+![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show4.png)
 
 Next up was the animating, 
 https://www.youtube.com/watch?v=p3mNNZ356Ko
