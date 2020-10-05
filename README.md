@@ -14,8 +14,8 @@ other for simplicity and ease of use.
 Next I use this same principle to create a desk, I decided to make it have a thinker rectangle underneath to symbolize a drawer cabinet, when my rectangle went 
 a little too low at first. So having a grasp on the primitive objects, I wondered if I could create a computer. I used two cylinders, on flat for the base, and one 
 long to represent the base. 
-
-![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show9.png )
+![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show10.png)
+![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show1.png )
 
 I then made two rectangles, one to represent the desktop, and another to represent the monitor. I also made the base using two cylinders, one flat and one long. Later on I found out how to add images by typing in 
 src="(source url)" within the brackets, to give it that image of me playing league of legends. 
@@ -49,7 +49,7 @@ too small and decided I liked the way it looks. So then I made a base that conne
 serve as the mattress. I duplicated it again and decreased the depth but made the height and width ever so slighty larger and colored it blue to resemble the 
 blanket on top of a mattress. Much later when I found out how to add 3D models, I added pillows.
 
-
+![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show9.png)
 ![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show3.png)
 
 As for 3D Models, my process came from the help of these two videos: 
@@ -109,7 +109,6 @@ Pillows were the last image I had added to the room.
 
 ![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show6.png)
 ![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show8.png)
-![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show10.png)
 ![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show11.png)
 
 
