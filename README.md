@@ -17,8 +17,6 @@ long to represent the base.
 
 ![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show1.png "Chair")
 
-![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show2.png "Computer")
-
 I then made two rectangles, one to represent the desktop, and another to represent the monitor. I also made the base using two cylinders, one flat and one long. Later on I found out how to add images by typing in 
 src="(source url)" within the brackets, to give it that image of me playing league of legends. 
 
@@ -52,7 +50,7 @@ serve as the mattress. I duplicated it again and decreased the depth but made th
 blanket on top of a mattress. Much later when I found out how to add 3D models, I added pillows.
 
 
-![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show4.png "show5.png")
+![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show4.png)
 
 As for 3D Models, my process came from the help of these two videos: 
 For uploading textures onto primitive objects: 
@@ -73,7 +71,7 @@ suddenly getting cancelled. Once I found out how to animate opacity and such, I 
 directly behind the other to create this illusion. 
 
 
-![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show4.png "show6")
+![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show5.png)
 
 Next up was the animating, 
 https://www.youtube.com/watch?v=p3mNNZ356Ko
@@ -107,6 +105,9 @@ I orignally just made the animation property="material: opacity" and set "to: 0"
 to the floor.
 The calendar was a much easier feat to accomplish since I had already created a seperate image for the cleaned calendar. 
 Pillows were the last image I had added to the room. 
+
+
+![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show6.png)
 
 I then added teleporation movement using inspiration from this glitch project: 
 https://glitch.com/edit/#!/puzzled-pretty-dollar?path=index.html%3A8%3A2
