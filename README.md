@@ -9,12 +9,15 @@ https://www.youtube.com/watch?v=ktjMCanKNLk&list=PL8MkBHej75fJD-HveDzm4xKrciC5Vf
 Shortly after I began my work by creating a chair, by flatening one square, duplicating and rotating it, then making four stands each 1 space away from each 
 other for simplicity and ease of use. 
 
-![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show1.png)
+![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show10.png)
 
 Next I use this same principle to create a desk, I decided to make it have a thinker rectangle underneath to symbolize a drawer cabinet, when my rectangle went 
 a little too low at first. So having a grasp on the primitive objects, I wondered if I could create a computer. I used two cylinders, on flat for the base, and one 
 long to represent the base. 
-![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show10.png)
+
+![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show1.png)
+
+![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show2.png)
 
 I then made two rectangles, one to represent the desktop, and another to represent the monitor. I also made the base using two cylinders, one flat and one long. Later on I found out how to add images by typing in 
 src="(source url)" within the brackets, to give it that image of me playing league of legends. 
