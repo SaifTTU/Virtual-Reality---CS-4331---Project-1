@@ -36,7 +36,7 @@ This is when I got the idea to use a pool. All I had to do was make another box 
 The lighting for this project came much later. There is a couple of red lights to represent the fire, the sun, the blue pool against the house, theres a few faint
 lights for the tv and some corrective lights implemented because the blue of the pool was shinning through the window.
 
-![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show4.png "show4")
+![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show4.png "show4.png")
 
 I made glass boxes by setting the opacity of the material to .1 for the windows.
 
@@ -50,6 +50,9 @@ This same process was how I made the bed, I made one long backboard, and a small
 too small and decided I liked the way it looks. So then I made a base that connected the two. I duplicated this and made a slighly smaller, but thicker square to 
 serve as the mattress. I duplicated it again and decreased the depth but made the height and width ever so slighty larger and colored it blue to resemble the 
 blanket on top of a mattress. Much later when I found out how to add 3D models, I added pillows.
+
+
+![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show4.png "show5.png")
 
 As for 3D Models, my process came from the help of these two videos: 
 For uploading textures onto primitive objects: 
@@ -68,6 +71,9 @@ thus take up way less space.
 Additionally I drew up a Calendar of March denoting the time when COVID started for me and all my plans were changed. This symbolizes all of the many plans I had 
 suddenly getting cancelled. Once I found out how to animate opacity and such, I made this fade into the original calendar I drew using two separate images, one
 directly behind the other to create this illusion. 
+
+
+![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show4.png "show6")
 
 Next up was the animating, 
 https://www.youtube.com/watch?v=p3mNNZ356Ko
