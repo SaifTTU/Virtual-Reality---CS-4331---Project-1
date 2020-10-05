@@ -157,7 +157,7 @@ List of the Models I created:
 
 17. Calendars 1 and 2. (I drew them, using paint)
 
-![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/calendar.png "calendar")
+![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/calendar.jpg "calendar")
 
 18. Webs (I drew this image in photoshop)
 
