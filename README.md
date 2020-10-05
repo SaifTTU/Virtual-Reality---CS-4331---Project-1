@@ -15,7 +15,7 @@ Next I use this same principle to create a desk, I decided to make it have a thi
 a little too low at first. So having a grasp on the primitive objects, I wondered if I could create a computer. I used two cylinders, on flat for the base, and one 
 long to represent the base. 
 
-I then made two rectangles, one to represent the desktop, and another to represent the monitor. Later on I found out how to add images by typing in 
+I then made two rectangles, one to represent the desktop, and another to represent the monitor. I also made the base using two cylinders, one flat and one long. Later on I found out how to add images by typing in 
 src="(source url)" within the brackets, to give it that image of me playing league of legends. 
 
 Next game the ground, the walls, and the ceilings, which are just more objects. 
@@ -25,10 +25,14 @@ sample file we got and titled it #lightwood.
 I decided I didn't want all my walls to be the same so I made the North side have two smaller narrow boxes of equal height to make room for a window. I then made
 long and narrow boxes and rotated them to represent the beams of a window looking out.
 
+![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/calendar.jpg "Chair")
+
 This is when I got the idea to use a pool. All I had to do was make another box similar to the way I made the ground and place it on a dpeth of -10 to face out the window.
 
 The lighting for this project came much later. There is a couple of red lights to represent the fire, the sun, the blue pool against the house, theres a few faint
 lights for the tv and some corrective lights implemented because the blue of the pool was shinning through the window.
+
+![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/calendar.jpg "Chair")
 
 I made glass boxes by setting the opacity of the material to .1 for the windows.
 
