@@ -9,6 +9,8 @@ https://www.youtube.com/watch?v=ktjMCanKNLk&list=PL8MkBHej75fJD-HveDzm4xKrciC5Vf
 Shortly after I began my work by creating a chair, by flatening one square, duplicating and rotating it, then making four stands each 1 space away from each 
 other for simplicity and ease of use. 
 
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
 
 Next I use this same principle to create a desk, I decided to make it have a thinker rectangle underneath to symbolize a drawer cabinet, when my rectangle went 
 a little too low at first. So having a grasp on the primitive objects, I wondered if I could create a computer. I used two cylinders, on flat for the base, and one 
