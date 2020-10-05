@@ -19,7 +19,7 @@ I then made two rectangles, one to represent the desktop, and another to represe
 src="(source url)" within the brackets, to give it that image of me playing league of legends. 
 
 ![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show2.png)
-![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show5.png "show1.png")
+![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show1.png "show1.png")
 
 Next game the ground, the walls, and the ceilings, which are just more objects. 
 In order for me to portray the walls realistically, I needed to use the repeat "3 3" command to make the wood on the walls duplicate. I took inspiration from the 
@@ -109,8 +109,8 @@ Pillows were the last image I had added to the room.
 
 ![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show6.png)
 ![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show8.png)
-![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show3.png)
 ![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show11.png)
+![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show3.png)
 
 
 
