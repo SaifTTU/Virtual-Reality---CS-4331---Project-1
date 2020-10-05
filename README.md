@@ -18,7 +18,8 @@ long to represent the base.
 I then made two rectangles, one to represent the desktop, and another to represent the monitor. I also made the base using two cylinders, one flat and one long. Later on I found out how to add images by typing in 
 src="(source url)" within the brackets, to give it that image of me playing league of legends. 
 
-![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show2.png "show4.png")
+![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show2.png)
+![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show5.png "show1.png")
 
 Next game the ground, the walls, and the ceilings, which are just more objects. 
 In order for me to portray the walls realistically, I needed to use the repeat "3 3" command to make the wood on the walls duplicate. I took inspiration from the 
