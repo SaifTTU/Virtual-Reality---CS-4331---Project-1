@@ -9,7 +9,7 @@ https://www.youtube.com/watch?v=ktjMCanKNLk&list=PL8MkBHej75fJD-HveDzm4xKrciC5Vf
 Shortly after I began my work by creating a chair, by flatening one square, duplicating and rotating it, then making four stands each 1 space away from each 
 other for simplicity and ease of use. 
 
-![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show7.png "whole room")
+![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show1.png)
 
 Next I use this same principle to create a desk, I decided to make it have a thinker rectangle underneath to symbolize a drawer cabinet, when my rectangle went 
 a little too low at first. So having a grasp on the primitive objects, I wondered if I could create a computer. I used two cylinders, on flat for the base, and one 
@@ -25,7 +25,6 @@ sample file we got and titled it #lightwood.
 
 I decided I didn't want all my walls to be the same so I made the North side have two smaller narrow boxes of equal height to make room for a window. I then made
 long and narrow boxes and rotated them to represent the beams of a window looking out.
-
 
 
 This is when I got the idea to use a pool. All I had to do was make another box similar to the way I made the ground and place it on a dpeth of -10 to face out the window.
@@ -73,8 +72,9 @@ directly behind the other to create this illusion.
 
 Next up was the animating, 
 https://www.youtube.com/watch?v=p3mNNZ356Ko
-I used the most basic principle in this tutorial video to help me create a rotating fan, the fan includes 4 blades slightly curved like a real fan, they rorate about
-a flat cylinder and have another two cylinders, on that represents the part the blades are connected to, and another that connects them to the ceiling. 
+I used the most basic principle in this tutorial video to help me create a rotating fan, the fan includes 4 blades slightly curved like a real fan, they rorate about a flat cylinder and have another two cylinders, on that represents the part the blades are connected to, and another that connects them to the ceiling. 
+
+![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show7.png "whole room")
 
 I used this same principle, but edited the sides to create a clock. I then manipulated the dur (duraction) of the animtion to 1/12 of the minute hand for the hour
 hand. I them rotated this object in place and gave it the clock texture I found online, and placed it directly above my shelf.
