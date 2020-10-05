@@ -50,7 +50,7 @@ serve as the mattress. I duplicated it again and decreased the depth but made th
 blanket on top of a mattress. Much later when I found out how to add 3D models, I added pillows.
 
 
-![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show4.png)
+![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show3.png)
 
 As for 3D Models, my process came from the help of these two videos: 
 For uploading textures onto primitive objects: 
