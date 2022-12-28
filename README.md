@@ -7,8 +7,9 @@ https://lavender-tame-tote.glitch.me/
 In order to make this scene in Aframe, I first watched Danilo Pasquariello's amazing tutorial playlist on youtube: 
 https://www.youtube.com/watch?v=ktjMCanKNLk&list=PL8MkBHej75fJD-HveDzm4xKrciC5VfYuV
 
-Shortly after I began my work by creating a chair, by flatening one square, duplicating and rotating it, then making four stands each 1 space away from each 
-other for simplicity and ease of use. 
+
+In order to Remix this scene, please visit: https://glitch.com/edit/#!/lavender-tame-tote
+
 
 ![Alt text](https://raw.githubusercontent.com/SaifTTU/Virtual-Reality---CS-4331---Project-1/master/show10.png)
 
