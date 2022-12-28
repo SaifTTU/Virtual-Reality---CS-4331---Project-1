@@ -1,7 +1,6 @@
 # Virtual-Reality---CS-4331---Project-1
 
 **Play it here**: 
-
 https://lavender-tame-tote.glitch.me/
 
 
