@@ -4,7 +4,7 @@
 https://lavender-tame-tote.glitch.me/
 
 
-In the process of making this scene I first encountered Danilo Pasquariello's amazing tutorial playlist on youtube: 
+In order to make this scene in Aframe, I first watched Danilo Pasquariello's amazing tutorial playlist on youtube: 
 https://www.youtube.com/watch?v=ktjMCanKNLk&list=PL8MkBHej75fJD-HveDzm4xKrciC5VfYuV
 
 Shortly after I began my work by creating a chair, by flatening one square, duplicating and rotating it, then making four stands each 1 space away from each 
